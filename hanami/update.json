@@ -1,13 +1,13 @@
 {
-  "version": "3.2.4",
+  "version": "3.2.5",
   "electron": "45.3.2",
-  "date": "2026-11-16T11:59:10.359Z",
-  "notes": "WFC updates keep the gamertag you set in the game, instead of the name you first installed with.",
+  "date": "2026-11-16T14:25:25.163Z",
+  "notes": "Hanami now goes to sleep while you play, so games get the whole GPU.\nHome screen and Control Center are much lighter, with the same look.\nNew: Settings → Lighter effects, for older graphics cards.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "e9775e687452f616f715397bf872fc8fca47300568a416e51f68d6fdfe551b30",
-      "size": 1518618
+      "sha256": "406892286e6ebf0212b1c63494be4afbb463a818c7f67136fc6460afa7aa51dd",
+      "size": 1523745
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
