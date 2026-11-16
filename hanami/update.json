@@ -1,13 +1,13 @@
 {
-  "version": "3.2.6",
+  "version": "3.2.7",
   "electron": "45.3.2",
-  "date": "2026-11-16T14:31:38.020Z",
-  "notes": "On laptops with two graphics chips, Store games now run on the fast one (NVIDIA/AMD).\nHanami still sleeps while you play, so games get the whole GPU.",
+  "date": "2026-11-16T20:32:21.847Z",
+  "notes": "Fixed: your controller could steer Hanami (and launch games) while you played a game in front of it.\nNotifications that pop up during a game no longer take button presses.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "c8163973bb0bca2d6ec5daed41acbcb7e9c55b0bcfdb2da2bc0b33e830896a5b",
-      "size": 1524909
+      "sha256": "58770e90470940bc694b32b9413303d4339e026c48389ef5f9d85e2d879a6886",
+      "size": 1526839
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
