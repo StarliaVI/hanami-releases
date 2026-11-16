@@ -6,8 +6,9 @@ Finished recomp builds for the **Hanami** launcher, plus the little `store.json`
 
 ## How it works
 
-- `store.json` lists each recomp: its name, which game copy it needs, and the release tag prefix.
-- Each build is a GitHub **Release** (for example `wfc-v1.0.0`) with one ZIP attached.
-- Every ZIP contains a `hanami.json` describing the required game copy and how to launch it.
+- `store.json` lists each recomp: its name, which game copy it needs, and its builds.
+- Builds live in `builds/<recomp>/` as ZIPs. Every ZIP contains a `hanami.json` describing the required game copy and how to launch it.
+- `art/` holds original store artwork (never game box art).
+- `hanami/` is how Hanami updates itself: `latest.json` lists the app's files and their SHA-256, and `hanami/files/<sha256>` holds each file. Hanami only downloads the files that changed and checks every one before using it.
 
 Hanami checks this page by itself — you don't need to download anything from here manually.
