@@ -1,13 +1,13 @@
 {
-  "version": "3.2.5",
+  "version": "3.2.6",
   "electron": "45.3.2",
-  "date": "2026-11-16T14:25:25.163Z",
-  "notes": "Hanami now goes to sleep while you play, so games get the whole GPU.\nHome screen and Control Center are much lighter, with the same look.\nNew: Settings → Lighter effects, for older graphics cards.",
+  "date": "2026-11-16T14:31:38.020Z",
+  "notes": "On laptops with two graphics chips, Store games now run on the fast one (NVIDIA/AMD).\nHanami still sleeps while you play, so games get the whole GPU.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "406892286e6ebf0212b1c63494be4afbb463a818c7f67136fc6460afa7aa51dd",
-      "size": 1523745
+      "sha256": "c8163973bb0bca2d6ec5daed41acbcb7e9c55b0bcfdb2da2bc0b33e830896a5b",
+      "size": 1524909
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
