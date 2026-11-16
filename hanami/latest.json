@@ -1,33 +1,6 @@
 {
-  "version": "3.2.1",
+  "version": "3.2.0",
   "electron": "45.3.2",
-  "date": "2026-11-16T11:24:50.307Z",
-  "notes": "Recomp updates now show a big progress popup with what's new.\nHanami tells you when it has updated, and won't get stuck retrying a failed update.",
-  "files": [
-    {
-      "path": "app.asar",
-      "sha256": "c73d7c603980268921b4bab295726dabe49828d485391e410278f908b9c4a709",
-      "size": 1512891
-    },
-    {
-      "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
-      "sha256": "b3d02113959ead19111ce8f4042829f7fe8b88f9c829bdb333d93c2c7ef484e4",
-      "size": 1060352
-    },
-    {
-      "path": "app.asar.unpacked/node_modules/node-hid/prebuilds/HID-win32-x64/node-napi-v4.node",
-      "sha256": "b8501067ca825b48b13a69523b2b8e7e65583a458618521e79135abcaa48d2a4",
-      "size": 413696
-    },
-    {
-      "path": "xdvdfs/xdvdfs-LICENSE.txt",
-      "sha256": "9c086954728e4317d740d8f6c6998e1c3491a88b7a06eb7f3acaa3876ab3808a",
-      "size": 1063
-    },
-    {
-      "path": "xdvdfs/xdvdfs.exe",
-      "sha256": "519c00c5d36e1c527d69b3f9036fbb912a46556492cab63c33e8d55bd685af06",
-      "size": 3603532
-    }
-  ]
+  "note": "Retired: Hanami 3.2.2+ reads update.json. Pinned so the old 3.2.0/3.2.1 updater does nothing.",
+  "files": []
 }
