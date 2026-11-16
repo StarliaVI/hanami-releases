@@ -1,5 +1,66 @@
 {
   "schema": 1,
   "name": "Hanami Store",
-  "recomps": []
+  "recomps": [
+    {
+      "id": "wfc",
+      "name": "Transformers: War for Cybertron",
+      "platform": "Xbox 360",
+      "tagline": "Online again · FSR upscaling · built from your own disc",
+      "description": "Play War for Cybertron online again on PC — no VPN, no IP addresses, no port forwarding. Built on your PC from your own USA disc, with FSR upscaling.",
+      "status": "available",
+      "requires": {
+        "title": "Transformers: War for Cybertron",
+        "platform": "Xbox 360",
+        "region": "USA",
+        "format": "ISO",
+        "checkFile": "default.xex",
+        "titleId": "4156084C",
+        "mediaId": "02619995",
+        "sha256": [
+          "107314b11111cef557b9bcee243b0a865c964f59cde99030c152265033934b22"
+        ],
+        "dataBytes": 7000000000
+      },
+      "install": {
+        "type": "build",
+        "script": "Install-WFC-Online.ps1",
+        "gameDir": "GameData",
+        "args": [
+          "-Gamertag",
+          "{gamertag}",
+          "-Yes",
+          "-NoShortcut"
+        ],
+        "rebuildArgs": [
+          "-Rebuild"
+        ],
+        "log": "install.log",
+        "gamertag": true,
+        "space": 25000000000,
+        "preserve": [
+          "FSR/wfc_account.ini",
+          "FSR/wfc_online.ini",
+          "FSR/warforcybertron.exe",
+          "FSR/UserData",
+          "settings.ini",
+          "install.log"
+        ],
+        "needs": "WFC is built on your PC from your own disc (about 5–15 minutes). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Needs about 25 GB free while building, about 10 GB after."
+      },
+      "art": {
+        "hero": "art/wfc/hero.jpg"
+      },
+      "credits": "Community Online Edition by Myowcha. Built with ReXGlue (BSD). AMD FidelityFX (FSR) by AMD.",
+      "builds": [
+        {
+          "version": "1.0.0",
+          "file": "builds/wfc/WFC-Online-1.0.0-win64.zip",
+          "size": 50754556,
+          "date": "2026-11-16",
+          "notes": "- Community online: lobbies, co-op, versus and escalation\n- FSR upscaling presets (720p → 1440p by default)\n- Built on your PC from your own USA disc"
+        }
+      ]
+    }
+  ]
 }
