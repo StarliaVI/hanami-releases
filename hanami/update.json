@@ -1,0 +1,33 @@
+{
+  "version": "3.2.3",
+  "electron": "45.3.2",
+  "date": "2026-11-16T11:36:34.507Z",
+  "notes": "Your first update installed right inside Hanami ✿",
+  "files": [
+    {
+      "path": "app.asar",
+      "sha256": "3b8be3cd016b649333050387e530d2b0ff33ecfbef0afbb869057d30a17f2780",
+      "size": 1517848
+    },
+    {
+      "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
+      "sha256": "b3d02113959ead19111ce8f4042829f7fe8b88f9c829bdb333d93c2c7ef484e4",
+      "size": 1060352
+    },
+    {
+      "path": "app.asar.unpacked/node_modules/node-hid/prebuilds/HID-win32-x64/node-napi-v4.node",
+      "sha256": "b8501067ca825b48b13a69523b2b8e7e65583a458618521e79135abcaa48d2a4",
+      "size": 413696
+    },
+    {
+      "path": "xdvdfs/xdvdfs-LICENSE.txt",
+      "sha256": "9c086954728e4317d740d8f6c6998e1c3491a88b7a06eb7f3acaa3876ab3808a",
+      "size": 1063
+    },
+    {
+      "path": "xdvdfs/xdvdfs.exe",
+      "sha256": "519c00c5d36e1c527d69b3f9036fbb912a46556492cab63c33e8d55bd685af06",
+      "size": 3603532
+    }
+  ]
+}
