@@ -1,13 +1,13 @@
 {
-  "version": "3.2.3",
+  "version": "3.2.4",
   "electron": "45.3.2",
-  "date": "2026-11-16T11:36:34.507Z",
-  "notes": "Your first update installed right inside Hanami ✿",
+  "date": "2026-11-16T11:59:10.359Z",
+  "notes": "WFC updates keep the gamertag you set in the game, instead of the name you first installed with.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "3b8be3cd016b649333050387e530d2b0ff33ecfbef0afbb869057d30a17f2780",
-      "size": 1517848
+      "sha256": "e9775e687452f616f715397bf872fc8fca47300568a416e51f68d6fdfe551b30",
+      "size": 1518618
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
