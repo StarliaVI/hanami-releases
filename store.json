@@ -49,7 +49,8 @@
         "needs": "WFC is built on your PC from your own disc (about 5–15 minutes). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Needs about 25 GB free while building, about 10 GB after."
       },
       "art": {
-        "hero": "art/wfc/hero.jpg"
+        "hero": "art/wfc/keyart.jpg",
+        "cover": "art/wfc/cover.jpg"
       },
       "credits": "Community Online Edition by Myowcha. Built with ReXGlue (BSD). AMD FidelityFX (FSR) by AMD.",
       "builds": [

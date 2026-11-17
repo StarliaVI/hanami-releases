@@ -1,13 +1,13 @@
 {
-  "version": "3.3.1",
+  "version": "3.3.2",
   "electron": "45.3.2",
-  "date": "2026-11-17T13:44:26.112Z",
-  "notes": "- Smoother home screen: moving between games no longer stutters (Hanami's work per frame cut by more than half)\n- Petals fall at a silky 60 fps\n- Patch notes now pop up right here on the home screen after an update, with Don't show again\n- Settings → Show patch notes after updates turns the popup back on",
+  "date": "2026-11-17T13:56:05.448Z",
+  "notes": "- War for Cybertron has its real key art in the Store, and on its tile in Games and Library\n- Store card text stays readable on bright artwork",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "1994812dd53da48ef5225c353ab8e5895e529a195289d4419df8bc112b9cbb25",
-      "size": 1541644
+      "sha256": "e08920691e71f9344f88cfb6210525b117908d7ce2dab5d4ee00ea488425c621",
+      "size": 1542570
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

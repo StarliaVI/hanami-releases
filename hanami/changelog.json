@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.3.2",
+    "date": "2026-11-17",
+    "notes": "- War for Cybertron has its real key art in the Store, and on its tile in Games and Library\n- Store card text stays readable on bright artwork"
+  },
+  {
     "version": "3.3.1",
     "date": "2026-11-17",
     "notes": "- Smoother home screen: moving between games no longer stutters (Hanami's work per frame cut by more than half)\n- Petals fall at a silky 60 fps\n- Patch notes now pop up right here on the home screen after an update, with Don't show again\n- Settings → Show patch notes after updates turns the popup back on"
