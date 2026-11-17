@@ -1,13 +1,13 @@
 {
-  "version": "3.2.7",
+  "version": "3.2.8",
   "electron": "45.3.2",
-  "date": "2026-11-16T20:32:21.847Z",
-  "notes": "Fixed: your controller could steer Hanami (and launch games) while you played a game in front of it.\nNotifications that pop up during a game no longer take button presses.",
+  "date": "2026-11-17T13:20:23.908Z",
+  "notes": "The in-game menu's button row is back, with Close game: press it twice to quit and return to Hanami's home screen.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "58770e90470940bc694b32b9413303d4339e026c48389ef5f9d85e2d879a6886",
-      "size": 1526839
+      "sha256": "8f93cfa30902acf8791ac91da4eacd835eb8e701b2c370bb51ab1332dbef3397",
+      "size": 1527539
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
