@@ -1,13 +1,13 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "electron": "45.3.2",
-  "date": "2026-11-17T13:31:35.865Z",
-  "notes": "- When a new Hanami comes out while it's open, the home screen shows it: F2 to update!\n- After updating, the patch notes open in a new What's new tab\n- Settings → Patch notes shows every version's notes",
+  "date": "2026-11-17T13:44:26.112Z",
+  "notes": "- Smoother home screen: moving between games no longer stutters (Hanami's work per frame cut by more than half)\n- Petals fall at a silky 60 fps\n- Patch notes now pop up right here on the home screen after an update, with Don't show again\n- Settings → Show patch notes after updates turns the popup back on",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "bc5cbb0983930d494fa26ea5177c7abc2b72c8c4e0992e8cc09cc42713386c81",
-      "size": 1537416
+      "sha256": "1994812dd53da48ef5225c353ab8e5895e529a195289d4419df8bc112b9cbb25",
+      "size": 1541644
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
