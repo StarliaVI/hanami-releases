@@ -1,13 +1,13 @@
 {
-  "version": "3.2.8",
+  "version": "3.3.0",
   "electron": "45.3.2",
-  "date": "2026-11-17T13:20:23.908Z",
-  "notes": "The in-game menu's button row is back, with Close game: press it twice to quit and return to Hanami's home screen.",
+  "date": "2026-11-17T13:31:35.865Z",
+  "notes": "- When a new Hanami comes out while it's open, the home screen shows it: F2 to update!\n- After updating, the patch notes open in a new What's new tab\n- Settings → Patch notes shows every version's notes",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "8f93cfa30902acf8791ac91da4eacd835eb8e701b2c370bb51ab1332dbef3397",
-      "size": 1527539
+      "sha256": "bc5cbb0983930d494fa26ea5177c7abc2b72c8c4e0992e8cc09cc42713386c81",
+      "size": 1537416
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

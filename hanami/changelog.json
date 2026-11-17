@@ -1,0 +1,47 @@
+[
+  {
+    "version": "3.3.0",
+    "date": "2026-11-17",
+    "notes": "- When a new Hanami comes out while it's open, the home screen shows it: F2 to update!\n- After updating, the patch notes open in a new What's new tab\n- Settings → Patch notes shows every version's notes"
+  },
+  {
+    "version": "3.2.8",
+    "date": "2026-11-17",
+    "notes": "- The in-game menu's button row is back, with Close game: press it twice to quit and return to Hanami's home screen"
+  },
+  {
+    "version": "3.2.7",
+    "date": "2026-11-16",
+    "notes": "- Fixed: your controller could steer Hanami (and launch games) while you played a game in front of it\n- Notifications that pop up during a game no longer take button presses"
+  },
+  {
+    "version": "3.2.6",
+    "date": "2026-11-16",
+    "notes": "- On laptops with two graphics chips, Store games now run on the fast one (NVIDIA/AMD)"
+  },
+  {
+    "version": "3.2.5",
+    "date": "2026-11-16",
+    "notes": "- Hanami goes to sleep while you play, so games get the whole GPU\n- Home screen and Control Center are much lighter, with the same look\n- New: Settings → Lighter effects, for older graphics cards"
+  },
+  {
+    "version": "3.2.4",
+    "date": "2026-11-16",
+    "notes": "- WFC updates keep the gamertag you set in the game"
+  },
+  {
+    "version": "3.2.3",
+    "date": "2026-11-16",
+    "notes": "- Updates now install right inside Hanami — no extra windows\n- If an update ever can't start, Hanami goes back to the version that works"
+  },
+  {
+    "version": "3.2.1",
+    "date": "2026-11-16",
+    "notes": "- Recomp updates show a big progress popup with what's new"
+  },
+  {
+    "version": "3.2.0",
+    "date": "2026-11-16",
+    "notes": "- Hanami updates itself from GitHub when it opens\n- Recomps update from the Store, with progress in Downloads"
+  }
+]
