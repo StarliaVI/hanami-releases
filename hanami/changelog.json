@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.7.0",
+    "date": "2026-11-18",
+    "notes": "WFC trophies + friends' levels ✿\n• War for Cybertron now has trophies: all 50, read from your own copy of the game (icons included), with the ones you've already earned\n• WFC counts towards your level and platinums, and shows in your trophy cabinet next to your Steam games\n• New: show your level to friends. Open your profile and choose Share (Steam asks you to confirm it's you, Hanami never sees your password)\n• Friends who share show their Hanami level in your friends list and on their profile, with their trophy counts and latest trophies\n• See a friend's WFC trophies next to yours, with \"You ✓\" on the ones you both have\n• Change your mind any time in Settings → Trophies: turning sharing off deletes your profile from the server"
+  },
+  {
     "version": "3.6.0",
     "date": "2026-11-18",
     "notes": "Friend profiles, PS5-style ✿\n• Selecting a friend now opens their profile: status, what they're playing, Steam level and hours in the last 2 weeks\n• Their recently played games, with hours, last played and trophy progress (Platinum shows when they've 100%'d it)\n• Message, View trophies, Steam profile and Remove friend, right on their profile\n• View trophies: see a friend's full trophy list for a game, with \"You ✓\" on the ones you've earned too\n• Compare with your games: open any of your games to see how a friend is doing in it\n• Back from a profile returns to your friends list\n• In the friends list, F / Y still jumps straight to Message"
