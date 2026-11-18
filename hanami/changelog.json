@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.2.0",
+    "date": "2026-11-18",
+    "notes": "## Protecting your recomps\n- Recomps now install into a hidden, permission-locked folder instead of a browsable one — other accounts on the PC can't wander in\n- The downloaded copy is deleted after install, and debug symbols, source and build leftovers are stripped out, so there's nothing lying around to copy or poke at\n- Already-installed recomps get locked automatically too, the next time Hanami starts\n- The game's own files and your saves are untouched — this only hides the parts a code-thief would go for"
+  },
+  {
     "version": "4.0.1",
     "date": "2026-11-18",
     "notes": "- The in-game Home menu uses a game screenshot behind Now Playing when a game's banner art is just a plain backdrop (like Demon Slayer 2's)\n- The achievement ring's glow no longer shows as a square, especially on platinums"

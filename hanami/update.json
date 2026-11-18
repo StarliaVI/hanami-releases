@@ -1,13 +1,13 @@
 {
-  "version": "4.0.1",
+  "version": "4.2.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T16:42:03.560Z",
-  "notes": "- The in-game Home menu uses a game screenshot behind Now Playing when a game's banner art is just a plain backdrop (like Demon Slayer 2's)\n- The achievement ring's glow no longer shows as a square, especially on platinums",
+  "date": "2026-11-18T18:59:40.300Z",
+  "notes": "## Protecting your recomps\n- Recomps now install into a hidden, permission-locked folder instead of a browsable one — other accounts on the PC can't wander in\n- The downloaded copy is deleted after install, and debug symbols, source and build leftovers are stripped out, so there's nothing lying around to copy or poke at\n- Already-installed recomps get locked automatically too, the next time Hanami starts\n- The game's own files and your saves are untouched — this only hides the parts a code-thief would go for",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "69ae01af4cb8102935390b8d57b8de5cce79391f943814c3a1d1a694075fb77d",
-      "size": 1714587
+      "sha256": "583ed3f77cdee90caf82935e0673934f6de6416b3b04d2777ef27b32923dbabb",
+      "size": 1721560
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
