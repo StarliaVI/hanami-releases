@@ -1,13 +1,13 @@
 {
-  "version": "3.9.1",
+  "version": "3.9.2",
   "electron": "45.3.2",
-  "date": "2026-11-18T15:36:00.608Z",
-  "notes": "Small fix ✿\n• A friend's profile now tells you when they haven't shared their Hanami level yet, instead of quietly showing only their Steam level",
+  "date": "2026-11-18T15:52:56.006Z",
+  "notes": "Levels show automatically, like Xbox ✿\n• Your level and gamerscore now show to friends automatically. Hanami links with Steam quietly in the background, using the Steam sign-in it already has\n• If Steam ever needs you to sign in first, your profile shows a Finish linking with Steam card\n• Don't want it? Settings → Achievements → Show my level and gamerscore to friends (turning it off deletes it from the server)\n• Fixed: linking with Steam was blocked by Steam's servers (needs the WFC server update too)",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "1413258456cc1c1d1a83a83f090430373d472dcdc0ecaecf495314404a845fe5",
-      "size": 1667583
+      "sha256": "9bffa61cf5f22b656014d1d6df4c075385d691040cff11c1b988c692a1a80a4a",
+      "size": 1671722
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

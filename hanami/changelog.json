@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.9.2",
+    "date": "2026-11-18",
+    "notes": "Levels show automatically, like Xbox ✿\n• Your level and gamerscore now show to friends automatically. Hanami links with Steam quietly in the background, using the Steam sign-in it already has\n• If Steam ever needs you to sign in first, your profile shows a Finish linking with Steam card\n• Don't want it? Settings → Achievements → Show my level and gamerscore to friends (turning it off deletes it from the server)\n• Fixed: linking with Steam was blocked by Steam's servers (needs the WFC server update too)"
+  },
+  {
     "version": "3.9.1",
     "date": "2026-11-18",
     "notes": "Small fix ✿\n• A friend's profile now tells you when they haven't shared their Hanami level yet, instead of quietly showing only their Steam level"
