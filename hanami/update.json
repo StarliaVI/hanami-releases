@@ -1,13 +1,13 @@
 {
-  "version": "4.2.0",
+  "version": "4.3.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T18:59:40.300Z",
-  "notes": "## Protecting your recomps\n- Recomps now install into a hidden, permission-locked folder instead of a browsable one — other accounts on the PC can't wander in\n- The downloaded copy is deleted after install, and debug symbols, source and build leftovers are stripped out, so there's nothing lying around to copy or poke at\n- Already-installed recomps get locked automatically too, the next time Hanami starts\n- The game's own files and your saves are untouched — this only hides the parts a code-thief would go for",
+  "date": "2026-11-18T19:24:52.290Z",
+  "notes": "## Encrypting your recomps\n- Encrypted recomp packages: the download itself is scrambled, so grabbing it off GitHub or a mirror gives junk — you need Hanami to open it\n- Installed code and assets are encrypted at rest and bound to your PC, so a copied folder, backup or synced copy is dead weight anywhere else\n- The files are unlocked into place only while you're actually playing (\"Preparing to play…\"), then wiped the moment you close the game\n- Your saves, your online account and the game data are left alone — only your code and assets get sealed\n- Plain, unencrypted recomps keep working exactly as before",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "583ed3f77cdee90caf82935e0673934f6de6416b3b04d2777ef27b32923dbabb",
-      "size": 1721560
+      "sha256": "30d905b82b0313c2d8104ae9963b33340ca6dee490b03f20e194db083102d045",
+      "size": 1741005
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
