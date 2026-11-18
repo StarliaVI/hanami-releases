@@ -1,13 +1,13 @@
 {
-  "version": "3.3.2",
+  "version": "3.4.0",
   "electron": "45.3.2",
-  "date": "2026-11-17T13:56:05.448Z",
-  "notes": "- War for Cybertron has its real key art in the Store, and on its tile in Games and Library\n- Store card text stays readable on bright artwork",
+  "date": "2026-11-18T12:20:48.148Z",
+  "notes": "- Welcome to the Hanami beta ✿\n- Settings → Send feedback (also in the M menu): saves a report with Hanami's logs to your Downloads, with logins and keys blanked out\n- Hanami now keeps its own log, so problems can actually be tracked down",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "e08920691e71f9344f88cfb6210525b117908d7ce2dab5d4ee00ea488425c621",
-      "size": 1542570
+      "sha256": "4382467a1f1e50511d9caab1a62d26e357ecaffccbfa74fdd3f68ec5eb0c08af",
+      "size": 1553602
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

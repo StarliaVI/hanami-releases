@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.4.0",
+    "date": "2026-11-18",
+    "notes": "- Welcome to the Hanami beta ✿\n- Settings → Send feedback (also in the M menu): saves a report with Hanami's logs to your Downloads, with logins and keys blanked out\n- Hanami now keeps its own log, so problems can actually be tracked down"
+  },
+  {
     "version": "3.3.2",
     "date": "2026-11-17",
     "notes": "- War for Cybertron has its real key art in the Store, and on its tile in Games and Library\n- Store card text stays readable on bright artwork"
