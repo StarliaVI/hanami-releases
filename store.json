@@ -61,7 +61,412 @@
           "date": "2026-11-16",
           "notes": "- Community online: lobbies, co-op, versus and escalation\n- FSR upscaling presets (720p → 1440p by default)\n- Built on your PC from your own USA disc"
         }
-      ]
+      ],
+      "trophies": {
+        "titleId": "4156084C",
+        "list": [
+          {
+            "id": 37,
+            "name": "A Prime Problem",
+            "desc": "Complete Defend Iacon on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/37.png"
+          },
+          {
+            "id": 38,
+            "name": "The Last Prime",
+            "desc": "Complete Kaon Prison Break on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/38.png"
+          },
+          {
+            "id": 39,
+            "name": "You Got the Touch",
+            "desc": "Complete To the Core on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/39.png"
+          },
+          {
+            "id": 40,
+            "name": "The War Within",
+            "desc": "Complete Aerial Assault on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/40.png"
+          },
+          {
+            "id": 41,
+            "name": "The Harder They Fall",
+            "desc": "Complete One Shall Stand on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/41.png"
+          },
+          {
+            "id": 42,
+            "name": "Paging Ratchet",
+            "desc": "Revive 5 Autobot soldiers in Defend Iacon.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/42.png"
+          },
+          {
+            "id": 43,
+            "name": "Beak Breaker",
+            "desc": "Shoot the 3 Hidden Laserbeaks throughout Kaon Prison Break.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/43.png"
+          },
+          {
+            "id": 44,
+            "name": "Slugfest",
+            "desc": "Save the Slug before it is executed in To the Core.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/44.png"
+          },
+          {
+            "id": 45,
+            "name": "Powerglide Performer",
+            "desc": "Fly through the coolant tunnels in 23 seconds in Aerial Assault.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/45.png"
+          },
+          {
+            "id": 46,
+            "name": "First We Crack the Shell...",
+            "desc": "Get smashed by Trypticon's hand as he falls into the energon goo in One Shall Stand.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/46.png"
+          },
+          {
+            "id": 50,
+            "name": "Autobot Recruit",
+            "desc": "Autobot Campaign Complete (Easy).",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/50.png"
+          },
+          {
+            "id": 51,
+            "name": "Autobot Commander",
+            "desc": "Autobot Campaign Complete (Medium).",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/51.png"
+          },
+          {
+            "id": 52,
+            "name": "Autobot Prime",
+            "desc": "Autobot Campaign Complete (Hard).",
+            "gamerscore": 45,
+            "hidden": false,
+            "icon": "art/wfc/trophies/52.png"
+          },
+          {
+            "id": 53,
+            "name": "Dark Awakening",
+            "desc": "Complete Dark Energon on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/53.png"
+          },
+          {
+            "id": 54,
+            "name": "Starscream's Brigade",
+            "desc": "Complete Fuel of War on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/54.png"
+          },
+          {
+            "id": 55,
+            "name": "The Fall of Iacon",
+            "desc": "Complete Iacon Destroyed on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/55.png"
+          },
+          {
+            "id": 56,
+            "name": "The Secret of Omega Supreme",
+            "desc": "Complete Death of Hope on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/56.png"
+          },
+          {
+            "id": 57,
+            "name": "Victory is Mine",
+            "desc": "Complete The Final Guardian on any difficulty.",
+            "gamerscore": 10,
+            "hidden": false,
+            "icon": "art/wfc/trophies/57.png"
+          },
+          {
+            "id": 58,
+            "name": "Your Lucky Day",
+            "desc": "Kill all but 1 of the neutral prisoners in Dark Energon.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/58.png"
+          },
+          {
+            "id": 59,
+            "name": "Thief in the Night",
+            "desc": "Find and disable all security trip-wire switches in Fuel of War.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/59.png"
+          },
+          {
+            "id": 60,
+            "name": "Chaos Bringer",
+            "desc": "Destroy the planets in the Stellar Galleries in Iacon Destroyed.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/60.png"
+          },
+          {
+            "id": 61,
+            "name": "Motormaster!",
+            "desc": "Race across the Chasm Bridge in 33 seconds in Death of Hope.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/61.png"
+          },
+          {
+            "id": 62,
+            "name": "Devastator!",
+            "desc": "Destroy all cover in the arena in The Final Guardian.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/62.png"
+          },
+          {
+            "id": 63,
+            "name": "Decepticon Grunt",
+            "desc": "Decepticon Campaign Complete (Easy).",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/63.png"
+          },
+          {
+            "id": 64,
+            "name": "Decepticon Seeker",
+            "desc": "Decepticon Campaign Complete (Medium).",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/64.png"
+          },
+          {
+            "id": 65,
+            "name": "Decepticon Warlord",
+            "desc": "Decepticon Campaign Complete (Hard).",
+            "gamerscore": 45,
+            "hidden": false,
+            "icon": "art/wfc/trophies/65.png"
+          },
+          {
+            "id": 66,
+            "name": "Till All Are One",
+            "desc": "Complete both Campaigns (Any Difficulty).",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/66.png"
+          },
+          {
+            "id": 67,
+            "name": "Brute-a-kiss!",
+            "desc": "Ignite a Brute's back 5 times in Campaign or Escalation. ",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/67.png"
+          },
+          {
+            "id": 68,
+            "name": "Footloose and Fancy Free",
+            "desc": "Destroy a Jet Soldier's foot thruster 5 times in Campaign or Escalation.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/68.png"
+          },
+          {
+            "id": 69,
+            "name": "That's No Mirage",
+            "desc": "Headshot a Cloaker when it is invisible in Campaign or Escalation.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/69.png"
+          },
+          {
+            "id": 70,
+            "name": "Targetmaster!",
+            "desc": "Kill 2 Snipers in 5 seconds in Campaign.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/70.png"
+          },
+          {
+            "id": 71,
+            "name": "There Are Parts Everywhere",
+            "desc": "Multi-Kill 3 car soldiers at once using an explosive weapon in Campaign or Escalation.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/71.png"
+          },
+          {
+            "id": 72,
+            "name": "Blast-arachnia!",
+            "desc": "Destroy 100 Spiders in Campaign or Escalation.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/72.png"
+          },
+          {
+            "id": 73,
+            "name": "Fire in the Sky",
+            "desc": "Melee-kill a Jet Vehicle in the air in Campaign or Escalation.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/73.png"
+          },
+          {
+            "id": 74,
+            "name": "Friends to the End",
+            "desc": "Finish any level in Co-Op.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/74.png"
+          },
+          {
+            "id": 75,
+            "name": "Unlikely Allies",
+            "desc": "Finish any level in Competitive Co-Op.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/75.png"
+          },
+          {
+            "id": 76,
+            "name": "More Than Meets the Eye",
+            "desc": "Earn a 1st Place MVP award in any Multiplayer mode.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/76.png"
+          },
+          {
+            "id": 77,
+            "name": "You Got Spark, Kid",
+            "desc": "Reach level 5 in any single class in Multiplayer.",
+            "gamerscore": 5,
+            "hidden": false,
+            "icon": "art/wfc/trophies/77.png"
+          },
+          {
+            "id": 78,
+            "name": "Spike's BFF",
+            "desc": "Reach level 25 in any single class in Multiplayer.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/78.png"
+          },
+          {
+            "id": 79,
+            "name": "The Kup's Half Full",
+            "desc": "Reach a combined class level of 50 in Multiplayer.",
+            "gamerscore": 25,
+            "hidden": false,
+            "icon": "art/wfc/trophies/79.png"
+          },
+          {
+            "id": 80,
+            "name": "Only the Strong Survive",
+            "desc": "Reach a combined class level of 75 in Multiplayer.",
+            "gamerscore": 50,
+            "hidden": false,
+            "icon": "art/wfc/trophies/80.png"
+          },
+          {
+            "id": 81,
+            "name": "Top of the Scrap Heap",
+            "desc": "Reach a combined class level of 100 in Multiplayer.",
+            "gamerscore": 75,
+            "hidden": false,
+            "icon": "art/wfc/trophies/81.png"
+          },
+          {
+            "id": 82,
+            "name": "Prime Directive",
+            "desc": "Unlock Prime Mode.",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/82.png"
+          },
+          {
+            "id": 83,
+            "name": "Powermaster!",
+            "desc": "Spend 25,000 Power in Escalation mode.",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/83.png"
+          },
+          {
+            "id": 84,
+            "name": "Heavy Metal War",
+            "desc": "Complete the 15th wave in Escalation.",
+            "gamerscore": 50,
+            "hidden": false,
+            "icon": "art/wfc/trophies/84.png"
+          },
+          {
+            "id": 85,
+            "name": "Scavenger Would Be Proud!",
+            "desc": "Destroy all hidden Autobot symbols in the Decepticon Campaign.",
+            "gamerscore": 25,
+            "hidden": false,
+            "icon": "art/wfc/trophies/85.png"
+          },
+          {
+            "id": 86,
+            "name": "Grimlock, Smash!",
+            "desc": "Destroy all hidden Decepticon symbols in the Autobot Campaign.",
+            "gamerscore": 25,
+            "hidden": false,
+            "icon": "art/wfc/trophies/86.png"
+          },
+          {
+            "id": 87,
+            "name": "Action Master",
+            "desc": "Get 10 kills with a single detached turret in any mode.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/87.png"
+          },
+          {
+            "id": 88,
+            "name": "Wait! I Still Function!",
+            "desc": "Get 3 kills while downed in a Co-Op Campaign or Escalation mode.",
+            "gamerscore": 30,
+            "hidden": false,
+            "icon": "art/wfc/trophies/88.png"
+          },
+          {
+            "id": 89,
+            "name": "Ramhorn",
+            "desc": "Ram-kill against an enemy who is stunned by an EMP grenade in Campaign or Multiplayer.",
+            "gamerscore": 15,
+            "hidden": false,
+            "icon": "art/wfc/trophies/89.png"
+          }
+        ]
+      }
     }
   ]
 }
