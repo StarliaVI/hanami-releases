@@ -1,13 +1,13 @@
 {
-  "version": "3.7.1",
+  "version": "3.8.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T14:00:06.606Z",
-  "notes": "Friends' WFC trophies for everyone ✿\n• You don't need War for Cybertron installed to see a friend's WFC trophies anymore: the full list, descriptions and real icons come from the Hanami Store\n• Their recent WFC trophies show their icons on their profile too\n• If your own copy of the game can't be read, your WFC trophies still show from the Store's list",
+  "date": "2026-11-18T14:32:21.672Z",
+  "notes": "Achievements with gamerscore ✿\n• Trophies are now Xbox-style achievements: every achievement is worth gamerscore, and your profile shows your total G\n• Platinums stay: 100% a game and it still gets its platinum, which also boosts your level\n• Your level stays too, now built from your gamerscore plus your platinums\n• WFC uses its real Xbox 360 gamerscore (1000G). Steam games get up to 1000G each, shared out by rarity, so rarer achievements are worth more; once given, the values stay put\n• Friends: their level and gamerscore show in your friends list and on their profile",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "7ed4dc704a07862938d25a5693e5c428ba99b14d1f024df8460649ff6bab39a7",
-      "size": 1639778
+      "sha256": "6d65c02e15d8568cc10f17b96c9eb7cf6e667e005c8eb77907d8e3dcefb09457",
+      "size": 1645048
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

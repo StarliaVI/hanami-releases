@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.8.0",
+    "date": "2026-11-18",
+    "notes": "Achievements with gamerscore ✿\n• Trophies are now Xbox-style achievements: every achievement is worth gamerscore, and your profile shows your total G\n• Platinums stay: 100% a game and it still gets its platinum, which also boosts your level\n• Your level stays too, now built from your gamerscore plus your platinums\n• WFC uses its real Xbox 360 gamerscore (1000G). Steam games get up to 1000G each, shared out by rarity, so rarer achievements are worth more; once given, the values stay put\n• Friends: their level and gamerscore show in your friends list and on their profile"
+  },
+  {
     "version": "3.7.1",
     "date": "2026-11-18",
     "notes": "Friends' WFC trophies for everyone ✿\n• You don't need War for Cybertron installed to see a friend's WFC trophies anymore: the full list, descriptions and real icons come from the Hanami Store\n• Their recent WFC trophies show their icons on their profile too\n• If your own copy of the game can't be read, your WFC trophies still show from the Store's list"
