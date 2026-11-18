@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.0.0",
+    "date": "2026-11-18",
+    "notes": "## Recomps\n- When a recomp has a new version, Play becomes Update! — updates are required before you can play, since some fix essential things\n- Move a recomp to another drive from the ••• menu — Hanami copies it, checks every file, then frees up the old drive\n## Steam games\n- The trash can on Steam games now uninstalls the game for you — no more trips to Steam\n- Steam's \"Starting game\" popup no longer shows when you press Play\n## In-game Home menu\n- A brand-new Home menu: a Now Playing card with your session timer and total playtime, your friends, messages and downloads alongside, and a quick-action dock\n- See your achievement progress for the game you're playing — gamerscore, what to go for next and this session's unlocks\n- Open the full achievement list without leaving your game"
+  },
+  {
     "version": "3.9.2",
     "date": "2026-11-18",
     "notes": "Levels show automatically, like Xbox ✿\n• Your level and gamerscore now show to friends automatically. Hanami links with Steam quietly in the background, using the Steam sign-in it already has\n• If Steam ever needs you to sign in first, your profile shows a Finish linking with Steam card\n• Don't want it? Settings → Achievements → Show my level and gamerscore to friends (turning it off deletes it from the server)\n• Fixed: linking with Steam was blocked by Steam's servers (needs the WFC server update too)"
