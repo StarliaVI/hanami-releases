@@ -1,13 +1,13 @@
 {
-  "version": "3.4.0",
+  "version": "3.5.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T12:20:48.148Z",
-  "notes": "- Welcome to the Hanami beta ✿\n- Settings → Send feedback (also in the M menu): saves a report with Hanami's logs to your Downloads, with logins and keys blanked out\n- Hanami now keeps its own log, so problems can actually be tracked down",
+  "date": "2026-11-18T12:38:05.199Z",
+  "notes": "- New: your Hanami profile ✿ Click your name in the top bar\n- Trophies from your Steam achievements: rarer = better (bronze, silver, gold), and 100% of a game earns a platinum\n- A PS5-style level, recently earned trophies, and a trophy cabinet with every game's progress\n- Pick a game in the cabinet to see all its trophies, how rare they are and when you earned them",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "4382467a1f1e50511d9caab1a62d26e357ecaffccbfa74fdd3f68ec5eb0c08af",
-      "size": 1553602
+      "sha256": "9da6410eb3a0f7f0b57e37f2ca8c8b637dfd0dcf9c41080985bab8386bcae866",
+      "size": 1582237
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

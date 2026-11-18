@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.5.0",
+    "date": "2026-11-18",
+    "notes": "- New: your Hanami profile ✿ Click your name in the top bar\n- Trophies from your Steam achievements: rarer = better (bronze, silver, gold), and 100% of a game earns a platinum\n- A PS5-style level, recently earned trophies, and a trophy cabinet with every game's progress\n- Pick a game in the cabinet to see all its trophies, how rare they are and when you earned them"
+  },
+  {
     "version": "3.4.0",
     "date": "2026-11-18",
     "notes": "- Welcome to the Hanami beta ✿\n- Settings → Send feedback (also in the M menu): saves a report with Hanami's logs to your Downloads, with logins and keys blanked out\n- Hanami now keeps its own log, so problems can actually be tracked down"
