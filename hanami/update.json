@@ -1,13 +1,13 @@
 {
-  "version": "3.5.0",
+  "version": "3.6.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T12:38:05.199Z",
-  "notes": "- New: your Hanami profile ✿ Click your name in the top bar\n- Trophies from your Steam achievements: rarer = better (bronze, silver, gold), and 100% of a game earns a platinum\n- A PS5-style level, recently earned trophies, and a trophy cabinet with every game's progress\n- Pick a game in the cabinet to see all its trophies, how rare they are and when you earned them",
+  "date": "2026-11-18T13:09:54.979Z",
+  "notes": "Friend profiles, PS5-style ✿\n• Selecting a friend now opens their profile: status, what they're playing, Steam level and hours in the last 2 weeks\n• Their recently played games, with hours, last played and trophy progress (Platinum shows when they've 100%'d it)\n• Message, View trophies, Steam profile and Remove friend, right on their profile\n• View trophies: see a friend's full trophy list for a game, with \"You ✓\" on the ones you've earned too\n• Compare with your games: open any of your games to see how a friend is doing in it\n• Back from a profile returns to your friends list\n• In the friends list, F / Y still jumps straight to Message",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "9da6410eb3a0f7f0b57e37f2ca8c8b637dfd0dcf9c41080985bab8386bcae866",
-      "size": 1582237
+      "sha256": "a896b9f4e1c917e3043388bb8659bd443965d4ec7afa42bb0939b988956e8eae",
+      "size": 1601084
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.6.0",
+    "date": "2026-11-18",
+    "notes": "Friend profiles, PS5-style ✿\n• Selecting a friend now opens their profile: status, what they're playing, Steam level and hours in the last 2 weeks\n• Their recently played games, with hours, last played and trophy progress (Platinum shows when they've 100%'d it)\n• Message, View trophies, Steam profile and Remove friend, right on their profile\n• View trophies: see a friend's full trophy list for a game, with \"You ✓\" on the ones you've earned too\n• Compare with your games: open any of your games to see how a friend is doing in it\n• Back from a profile returns to your friends list\n• In the friends list, F / Y still jumps straight to Message"
+  },
+  {
     "version": "3.5.0",
     "date": "2026-11-18",
     "notes": "- New: your Hanami profile ✿ Click your name in the top bar\n- Trophies from your Steam achievements: rarer = better (bronze, silver, gold), and 100% of a game earns a platinum\n- A PS5-style level, recently earned trophies, and a trophy cabinet with every game's progress\n- Pick a game in the cabinet to see all its trophies, how rare they are and when you earned them"
