@@ -55,6 +55,14 @@
       "credits": "Community Online Edition by Myowcha. Built with ReXGlue (BSD). AMD FidelityFX (FSR) by AMD.",
       "builds": [
         {
+          "version": "1.0.1",
+          "file": "builds/wfc/WFC-Online-1.0.1-win64.zip",
+          "size": 52906731,
+          "date": "2026-11-18",
+          "rebuild": true,
+          "notes": "- Hanami shows its own achievement popups for WFC, with gamerscore and platinums\n- The game’s own \"Achievement Unlocked\" popup is switched off when you play from Hanami (it still shows if you start WFC another way)\n- Rebuilds the game from your disc files once (a few minutes); your online name, settings and saves are kept"
+        },
+        {
           "version": "1.0.0",
           "file": "builds/wfc/WFC-Online-1.0.0-win64.zip",
           "size": 50754556,
