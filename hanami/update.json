@@ -1,13 +1,13 @@
 {
-  "version": "3.7.0",
+  "version": "3.7.1",
   "electron": "45.3.2",
-  "date": "2026-11-18T13:36:26.759Z",
-  "notes": "WFC trophies + friends' levels ✿\n• War for Cybertron now has trophies: all 50, read from your own copy of the game (icons included), with the ones you've already earned\n• WFC counts towards your level and platinums, and shows in your trophy cabinet next to your Steam games\n• New: show your level to friends. Open your profile and choose Share (Steam asks you to confirm it's you, Hanami never sees your password)\n• Friends who share show their Hanami level in your friends list and on their profile, with their trophy counts and latest trophies\n• See a friend's WFC trophies next to yours, with \"You ✓\" on the ones you both have\n• Change your mind any time in Settings → Trophies: turning sharing off deletes your profile from the server",
+  "date": "2026-11-18T14:00:06.606Z",
+  "notes": "Friends' WFC trophies for everyone ✿\n• You don't need War for Cybertron installed to see a friend's WFC trophies anymore: the full list, descriptions and real icons come from the Hanami Store\n• Their recent WFC trophies show their icons on their profile too\n• If your own copy of the game can't be read, your WFC trophies still show from the Store's list",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "1e512f3f3c523eac00621c6ce146ed12dac4ea435d9568a0b719051a80782842",
-      "size": 1637024
+      "sha256": "7ed4dc704a07862938d25a5693e5c428ba99b14d1f024df8460649ff6bab39a7",
+      "size": 1639778
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
