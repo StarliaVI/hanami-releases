@@ -1,5 +1,10 @@
 [
   {
+    "version": "3.9.1",
+    "date": "2026-11-18",
+    "notes": "Small fix ✿\n• A friend's profile now tells you when they haven't shared their Hanami level yet, instead of quietly showing only their Steam level"
+  },
+  {
     "version": "3.9.0",
     "date": "2026-11-18",
     "notes": "Achievement popups ✿\n• Hanami now has its own Xbox-style achievement popup, with the gamerscore you just earned, and a special one with a petal burst when you get a platinum\n• While Hanami is open, Steam's own popups and sounds stay quiet, so you only see Hanami's. Your Steam settings come back exactly as they were when Hanami closes\n• Choose in Settings → Achievements: all of Steam's popups off, just achievement popups off, or leave Steam alone. There's a Preview button too\n• Steam games: popups appear the moment you unlock something. This uses Hanami's Steam connection (Settings → Silent installs)\n• War for Cybertron: popups come from Hanami once WFC updates to 1.0.1, which turns the game's own popup off when Hanami launches it"
