@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.4.1",
+    "date": "2026-11-20",
+    "notes": "## Fix\n- Fixed recomps failing to launch with \"spawn EPERM\" and seeming to vanish from their folder. A folder-lock added in a recent update could deny the game's own process access on Windows. Hanami no longer changes Windows file permissions, and it automatically repairs any install the old lock affected — your recomps should open normally again (Neon Coast stays on 🌴)."
+  },
+  {
     "version": "4.4.0",
     "date": "2026-11-20",
     "notes": "## 🌴 Neon Coast — a limited-time makeover\n- To celebrate a certain long-awaited trip to the sunny coast, Hanami is wearing a neon Vice-City sunset for the week — palms, synthwave sun and all\n- The whole launcher and the in-game overlay get the treatment: hot pink, cyan and sunset gradients\n- It switches itself back to normal automatically after about a week — no action needed\n- Not feeling it? Settings › 🌴 Neon Coast toggles it off (or back on) any time while it lasts"
