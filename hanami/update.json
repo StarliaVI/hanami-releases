@@ -1,13 +1,13 @@
 {
-  "version": "4.5.1",
+  "version": "4.5.2",
   "electron": "45.3.2",
-  "date": "2026-11-20T03:38:14.059Z",
-  "notes": "## Fix\n- Fixed installs and updates aborting with \"operation not permitted\" when preserving your account key or saves (e.g. wfc_account.ini). The installer now clears any leftover lock from an earlier build before updating, and copies your preserved files into place instead of requiring a move — so a locked or still-restricted file can no longer stop an install.",
+  "date": "2026-11-20T03:53:42.147Z",
+  "notes": "## Fix\n- An install or update no longer fails if one preserved file (like your account key) can't be moved because an older build locked it. That one file is skipped and the install finishes. If your WFC account key couldn't be carried over, the game just signs you in fresh on the next launch.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "aa38525cc3e04e1f7eaed09bee888970c6a25fb36c9fe14b6622ee4228d9d1a2",
-      "size": 1753318
+      "sha256": "91ca18344c40584443ba095bc0116c2c7fbdc2b95479cbf58f148f72c2cbda98",
+      "size": 1754011
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

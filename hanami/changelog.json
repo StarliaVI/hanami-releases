@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.5.2",
+    "date": "2026-11-20",
+    "notes": "## Fix\n- An install or update no longer fails if one preserved file (like your account key) can't be moved because an older build locked it. That one file is skipped and the install finishes. If your WFC account key couldn't be carried over, the game just signs you in fresh on the next launch."
+  },
+  {
     "version": "4.5.1",
     "date": "2026-11-20",
     "notes": "## Fix\n- Fixed installs and updates aborting with \"operation not permitted\" when preserving your account key or saves (e.g. wfc_account.ini). The installer now clears any leftover lock from an earlier build before updating, and copies your preserved files into place instead of requiring a move — so a locked or still-restricted file can no longer stop an install."
