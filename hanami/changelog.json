@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.5.3",
+    "date": "2026-11-20",
+    "notes": "## Fix\n- Installs/updates can now delete read-only game files (default.xex and friends), which an older build left behind — no more \"operation not permitted\" at the game-data step. If an existing install is still stuck, the FIX-WFC-PERMISSIONS tool clears it in one click."
+  },
+  {
     "version": "4.5.2",
     "date": "2026-11-20",
     "notes": "## Fix\n- An install or update no longer fails if one preserved file (like your account key) can't be moved because an older build locked it. That one file is skipped and the install finishes. If your WFC account key couldn't be carried over, the game just signs you in fresh on the next launch."

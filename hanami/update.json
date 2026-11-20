@@ -1,13 +1,13 @@
 {
-  "version": "4.5.2",
+  "version": "4.5.3",
   "electron": "45.3.2",
-  "date": "2026-11-20T03:53:42.147Z",
-  "notes": "## Fix\n- An install or update no longer fails if one preserved file (like your account key) can't be moved because an older build locked it. That one file is skipped and the install finishes. If your WFC account key couldn't be carried over, the game just signs you in fresh on the next launch.",
+  "date": "2026-11-20T04:10:14.291Z",
+  "notes": "## Fix\n- Installs/updates can now delete read-only game files (default.xex and friends), which an older build left behind — no more \"operation not permitted\" at the game-data step. If an existing install is still stuck, the FIX-WFC-PERMISSIONS tool clears it in one click.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "91ca18344c40584443ba095bc0116c2c7fbdc2b95479cbf58f148f72c2cbda98",
-      "size": 1754011
+      "sha256": "d571129eec313562b0904582788e7e8580e1b3b98fc96a2823c86c668e253800",
+      "size": 1754544
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
