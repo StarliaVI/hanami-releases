@@ -1,13 +1,13 @@
 {
-  "version": "4.3.0",
+  "version": "4.4.0",
   "electron": "45.3.2",
-  "date": "2026-11-18T19:24:52.290Z",
-  "notes": "## Encrypting your recomps\n- Encrypted recomp packages: the download itself is scrambled, so grabbing it off GitHub or a mirror gives junk — you need Hanami to open it\n- Installed code and assets are encrypted at rest and bound to your PC, so a copied folder, backup or synced copy is dead weight anywhere else\n- The files are unlocked into place only while you're actually playing (\"Preparing to play…\"), then wiped the moment you close the game\n- Your saves, your online account and the game data are left alone — only your code and assets get sealed\n- Plain, unencrypted recomps keep working exactly as before",
+  "date": "2026-11-20T02:45:38.916Z",
+  "notes": "## 🌴 Neon Coast — a limited-time makeover\n- To celebrate a certain long-awaited trip to the sunny coast, Hanami is wearing a neon Vice-City sunset for the week — palms, synthwave sun and all\n- The whole launcher and the in-game overlay get the treatment: hot pink, cyan and sunset gradients\n- It switches itself back to normal automatically after about a week — no action needed\n- Not feeling it? Settings › 🌴 Neon Coast toggles it off (or back on) any time while it lasts",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "30d905b82b0313c2d8104ae9963b33340ca6dee490b03f20e194db083102d045",
-      "size": 1741005
+      "sha256": "8a36b66685d8c0d26d30a3b34cb8699bd40cb95c3b303b3bdce6f41826aeb9ab",
+      "size": 1751732
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

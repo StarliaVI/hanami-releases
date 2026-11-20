@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.4.0",
+    "date": "2026-11-20",
+    "notes": "## 🌴 Neon Coast — a limited-time makeover\n- To celebrate a certain long-awaited trip to the sunny coast, Hanami is wearing a neon Vice-City sunset for the week — palms, synthwave sun and all\n- The whole launcher and the in-game overlay get the treatment: hot pink, cyan and sunset gradients\n- It switches itself back to normal automatically after about a week — no action needed\n- Not feeling it? Settings › 🌴 Neon Coast toggles it off (or back on) any time while it lasts"
+  },
+  {
     "version": "4.3.0",
     "date": "2026-11-18",
     "notes": "## Encrypting your recomps\n- Encrypted recomp packages: the download itself is scrambled, so grabbing it off GitHub or a mirror gives junk — you need Hanami to open it\n- Installed code and assets are encrypted at rest and bound to your PC, so a copied folder, backup or synced copy is dead weight anywhere else\n- The files are unlocked into place only while you're actually playing (\"Preparing to play…\"), then wiped the moment you close the game\n- Your saves, your online account and the game data are left alone — only your code and assets get sealed\n- Plain, unencrypted recomps keep working exactly as before"
