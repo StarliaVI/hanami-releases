@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.5.0",
+    "date": "2026-11-20",
+    "notes": "## Recomps install normally again\n- Normal recomps now install to a plain, visible folder named after the game — no more hiding or scrambled folder names. Your existing installs are automatically restored to normal when you open this update.\n- Protection is now encryption-only, and applies solely to recomps published as encrypted packages (that'll be RB3). Everything else installs, shows and launches like any other game."
+  },
+  {
     "version": "4.4.1",
     "date": "2026-11-20",
     "notes": "## Fix\n- Fixed recomps failing to launch with \"spawn EPERM\" and seeming to vanish from their folder. A folder-lock added in a recent update could deny the game's own process access on Windows. Hanami no longer changes Windows file permissions, and it automatically repairs any install the old lock affected — your recomps should open normally again (Neon Coast stays on 🌴)."

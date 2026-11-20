@@ -1,13 +1,13 @@
 {
-  "version": "4.4.1",
+  "version": "4.5.0",
   "electron": "45.3.2",
-  "date": "2026-11-20T03:13:29.543Z",
-  "notes": "## Fix\n- Fixed recomps failing to launch with \"spawn EPERM\" and seeming to vanish from their folder. A folder-lock added in a recent update could deny the game's own process access on Windows. Hanami no longer changes Windows file permissions, and it automatically repairs any install the old lock affected — your recomps should open normally again (Neon Coast stays on 🌴).",
+  "date": "2026-11-20T03:21:21.446Z",
+  "notes": "## Recomps install normally again\n- Normal recomps now install to a plain, visible folder named after the game — no more hiding or scrambled folder names. Your existing installs are automatically restored to normal when you open this update.\n- Protection is now encryption-only, and applies solely to recomps published as encrypted packages (that'll be RB3). Everything else installs, shows and launches like any other game.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "9941e3354a3d171d7ca8ab921be110ef8aa16e8bb320dc80b0c77d8bb01ab2b7",
-      "size": 1753209
+      "sha256": "e44fa1fbb430a7ea6d5d79754b20fb28a6b3b466aca112512c147b1bf1679785",
+      "size": 1752542
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
