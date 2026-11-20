@@ -1,13 +1,13 @@
 {
-  "version": "4.5.0",
+  "version": "4.5.1",
   "electron": "45.3.2",
-  "date": "2026-11-20T03:21:21.446Z",
-  "notes": "## Recomps install normally again\n- Normal recomps now install to a plain, visible folder named after the game — no more hiding or scrambled folder names. Your existing installs are automatically restored to normal when you open this update.\n- Protection is now encryption-only, and applies solely to recomps published as encrypted packages (that'll be RB3). Everything else installs, shows and launches like any other game.",
+  "date": "2026-11-20T03:38:14.059Z",
+  "notes": "## Fix\n- Fixed installs and updates aborting with \"operation not permitted\" when preserving your account key or saves (e.g. wfc_account.ini). The installer now clears any leftover lock from an earlier build before updating, and copies your preserved files into place instead of requiring a move — so a locked or still-restricted file can no longer stop an install.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "e44fa1fbb430a7ea6d5d79754b20fb28a6b3b466aca112512c147b1bf1679785",
-      "size": 1752542
+      "sha256": "aa38525cc3e04e1f7eaed09bee888970c6a25fb36c9fe14b6622ee4228d9d1a2",
+      "size": 1753318
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
