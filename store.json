@@ -55,6 +55,14 @@
       "credits": "Community Online Edition by Myowcha. Built with ReXGlue (BSD). AMD FidelityFX (FSR) by AMD.",
       "builds": [
         {
+          "version": "1.0.3",
+          "file": "builds/wfc/WFC-Online-1.0.3-win64.zip",
+          "size": 53779232,
+          "date": "2026-11-21",
+          "rebuild": false,
+          "notes": "- Installer now loads the Visual Studio C++ build environment before compiling, so the build no longer fails at “Configuring” with missing oldnames.lib / msvcrtd.lib on some PCs\n- No game changes; if you already built and play fine, nothing to do"
+        },
+        {
           "version": "1.0.2",
           "file": "builds/wfc/WFC-Online-1.0.2-win64.zip",
           "size": 53778649,
