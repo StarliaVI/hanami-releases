@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.5.5",
+    "date": "2026-11-21",
+    "notes": "- F11 no longer hijacks other apps — it only toggles Hanami's own fullscreen when Hanami is the focused window (it was being registered as a system-wide hotkey)\n- Steam's popups stay hidden while you're in a game: they're off by default, and now Hanami re-asserts that the moment a game launches"
+  },
+  {
     "version": "4.5.4",
     "date": "2026-11-20",
     "notes": "## Fix\n- Fixed the Neon Coast theme washing out some text and profile pictures: highlighted primary buttons (like \"Sign in through Steam\" and Play) now keep readable white-on-pink text instead of turning white-on-white, and avatars in the top bar show their photo clearly again."
