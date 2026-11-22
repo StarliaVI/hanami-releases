@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.3",
+    "date": "2026-11-22",
+    "notes": "- PS5 Remote Play quality picker now has Brightness and HDR too. If the stream looks dim, bump Brightness — Hanami writes it into chiaki's colour settings for you.\n- HDR is off by default (best for a normal monitor); turn it on only if your display is HDR."
+  },
+  {
     "version": "4.6.2",
     "date": "2026-11-22",
     "notes": "- New: PS5 Remote Play now asks your stream quality on launch — a quick Hanami picker for resolution (540p/720p/1080p) and frame rate (30/60). Hanami sets it in chiaki for you; you never open chiaki's settings.\n- Your last choice is remembered and pre-selected."

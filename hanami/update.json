@@ -1,13 +1,13 @@
 {
-  "version": "4.6.2",
+  "version": "4.6.3",
   "electron": "45.3.2",
-  "date": "2026-11-22T05:45:24.894Z",
-  "notes": "- New: PS5 Remote Play now asks your stream quality on launch — a quick Hanami picker for resolution (540p/720p/1080p) and frame rate (30/60). Hanami sets it in chiaki for you; you never open chiaki's settings.\n- Your last choice is remembered and pre-selected.",
+  "date": "2026-11-22T05:54:20.540Z",
+  "notes": "- PS5 Remote Play quality picker now has Brightness and HDR too. If the stream looks dim, bump Brightness — Hanami writes it into chiaki's colour settings for you.\n- HDR is off by default (best for a normal monitor); turn it on only if your display is HDR.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "03f4fa5c99a3c8ba30f9ad3576ab730e3bc05a53af153a2bc475f818a1e5f21a",
-      "size": 1773382
+      "sha256": "2573b3b0e1a843a9b1100e27524f4d5a4528194934fae4de1c8c6b0db307f940",
+      "size": 1775087
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
