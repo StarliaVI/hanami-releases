@@ -1,13 +1,13 @@
 {
-  "version": "4.5.5",
+  "version": "4.6.0",
   "electron": "45.3.2",
-  "date": "2026-11-21T01:10:08.075Z",
-  "notes": "- F11 no longer hijacks other apps — it only toggles Hanami's own fullscreen when Hanami is the focused window (it was being registered as a system-wide hotkey)\n- Steam's popups stay hidden while you're in a game: they're off by default, and now Hanami re-asserts that the moment a game launches",
+  "date": "2026-11-22T04:58:43.015Z",
+  "notes": "- New: PS5 Remote Play ✿ — stream your PS5 to this PC as a launchable tile, powered by the open-source chiaki-ng. Open Settings › PlayStation (or the + menu → PS5 Remote Play): install or locate chiaki-ng, register your console once with its 8-digit PIN, enter its name and address, and press Stream. chiaki even wakes the console from rest mode.\n- Remote Play closes cleanly back to Hanami when you end the stream.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "66996ad537efe365ab2b08882656b1736dc281c8579f837495b8b55fb4a4a32f",
-      "size": 1755620
+      "sha256": "f98b2adf7bd36a2d9190bd69ede3bd6e7451d865e1e40fbf34c8bb95e6a153c3",
+      "size": 1768896
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
