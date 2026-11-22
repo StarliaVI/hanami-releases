@@ -1,13 +1,13 @@
 {
-  "version": "4.6.3",
+  "version": "4.6.4",
   "electron": "45.3.2",
-  "date": "2026-11-22T05:54:20.540Z",
-  "notes": "- PS5 Remote Play quality picker now has Brightness and HDR too. If the stream looks dim, bump Brightness — Hanami writes it into chiaki's colour settings for you.\n- HDR is off by default (best for a normal monitor); turn it on only if your display is HDR.",
+  "date": "2026-11-22T06:01:14.921Z",
+  "notes": "- PS5 Remote Play picker now has a Bitrate control (Auto / 30 / 50 / 100 Mbps). On auto, 1080p only gets ~15 Mbps — bump it to 50 on a wired/strong LAN and the picture gets noticeably sharper.\n- Note: PS5 Remote Play maxes out at 1080p (Sony's cap), so bitrate is the lever for crispness, not higher resolution.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "2573b3b0e1a843a9b1100e27524f4d5a4528194934fae4de1c8c6b0db307f940",
-      "size": 1775087
+      "sha256": "47ff58038543f261ac22d5ed6c40c2646d4c1c7fc4a4e0f6c13415de299ebc45",
+      "size": 1775903
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

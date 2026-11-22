@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.4",
+    "date": "2026-11-22",
+    "notes": "- PS5 Remote Play picker now has a Bitrate control (Auto / 30 / 50 / 100 Mbps). On auto, 1080p only gets ~15 Mbps — bump it to 50 on a wired/strong LAN and the picture gets noticeably sharper.\n- Note: PS5 Remote Play maxes out at 1080p (Sony's cap), so bitrate is the lever for crispness, not higher resolution."
+  },
+  {
     "version": "4.6.3",
     "date": "2026-11-22",
     "notes": "- PS5 Remote Play quality picker now has Brightness and HDR too. If the stream looks dim, bump Brightness — Hanami writes it into chiaki's colour settings for you.\n- HDR is off by default (best for a normal monitor); turn it on only if your display is HDR."
