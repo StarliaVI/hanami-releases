@@ -1,13 +1,13 @@
 {
-  "version": "4.6.1",
+  "version": "4.6.2",
   "electron": "45.3.2",
-  "date": "2026-11-22T05:35:17.834Z",
-  "notes": "- Fix: the PS5 Remote Play button now launches the stream once set up (it was re-opening the setup every time). Your tile streams on tap.\n- Remote Play now tells you if chiaki closes before connecting, instead of failing silently.",
+  "date": "2026-11-22T05:45:24.894Z",
+  "notes": "- New: PS5 Remote Play now asks your stream quality on launch — a quick Hanami picker for resolution (540p/720p/1080p) and frame rate (30/60). Hanami sets it in chiaki for you; you never open chiaki's settings.\n- Your last choice is remembered and pre-selected.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "18bd7650ead9a744993011aa96a1601e107c5315cf306915cf40837f59f97c4f",
-      "size": 1769778
+      "sha256": "03f4fa5c99a3c8ba30f9ad3576ab730e3bc05a53af153a2bc475f818a1e5f21a",
+      "size": 1773382
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
