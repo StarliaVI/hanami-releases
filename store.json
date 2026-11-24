@@ -525,6 +525,7 @@
         "space": 40000000000,
         "preserve": [
           "TagTeam/build",
+          "TagTeam/game/generated/default",
           "TagTeam/tag-team-probe-data",
           "TagTeam/cache",
           "mod_work/title_screen/patches",
@@ -541,16 +542,16 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.1.1",
-          "file": "builds/rb3/RB3-REBORN-0.1.1-beta.zip.part0",
+          "version": "0.1.2",
+          "file": "builds/rb3/RB3-REBORN-0.1.2-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.1.1-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.1.1-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.1.2-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.1.2-beta.zip.part1"
           ],
-          "size": 136048688,
+          "size": 136051159,
           "date": "2026-11-24",
           "rebuild": true,
-          "notes": "- Fix: the Raging Blast 1 disc reader now finds the game files in more kinds of .iso, and if a file still can't be read it says what the file actually is\n- You can also pick the default.xex of an already-extracted Raging Blast 1 instead of the .iso\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- You need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: 3D models on character select, anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Fix: the build now makes the recompiled game code from your disc first (it stopped at “Building the game failed” before)\n- The Raging Blast 1 step finds the game files in more kinds of .iso, and explains files it can't read (e.g. the PS3 version)\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- You need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: 3D models on character select, anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
       ]
     }
