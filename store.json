@@ -491,6 +491,68 @@
           }
         ]
       }
+    },
+    {
+      "id": "rb3",
+      "name": "Dragon Ball Raging Blast REBORN",
+      "platform": "Xbox 360",
+      "tagline": "Raging Blast 2 reborn · RB1's fighters & maps · Tag Team · rollback online",
+      "description": "RB3 REBORN: Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, Tag Team battles and rollback online through the same server as WFC. Built on your PC from your own Raging Blast 2 and Raging Blast 1 (USA) discs — no game files are downloaded.",
+      "status": "available",
+      "requires": {
+        "title": "Dragon Ball: Raging Blast 2",
+        "platform": "Xbox 360",
+        "region": "USA",
+        "format": "ISO",
+        "checkFile": "default.xex",
+        "titleId": "4E4D0826",
+        "dataBytes": 7000000000
+      },
+      "install": {
+        "type": "build",
+        "script": "Install-RB3.ps1",
+        "gameDir": "extracted_game",
+        "args": [
+          "-Gamertag",
+          "{gamertag}",
+          "-Yes"
+        ],
+        "rebuildArgs": [
+          "-Rebuild"
+        ],
+        "log": "install.log",
+        "gamertag": true,
+        "space": 40000000000,
+        "preserve": [
+          "TagTeam/build",
+          "TagTeam/tag-team-probe-data",
+          "TagTeam/cache",
+          "mod_work/title_screen/patches",
+          "mod_work/title_screen/test_data",
+          "mod_work/rb3_exe/rb3_ultimates_selected.txt",
+          "install.log"
+        ],
+        "needs": "RB3 is built on your PC from your own discs: pick your Raging Blast 2 (USA) ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (RB3 uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
+      },
+      "art": {
+        "hero": "art/rb3/keyart.jpg",
+        "cover": "art/rb3/cover.jpg"
+      },
+      "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
+      "builds": [
+        {
+          "version": "0.1.0",
+          "file": "builds/rb3/RB3-REBORN-0.1.0-beta.zip.part0",
+          "parts": [
+            "builds/rb3/RB3-REBORN-0.1.0-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.1.0-beta.zip.part1"
+          ],
+          "size": 135822873,
+          "date": "2026-11-24",
+          "rebuild": true,
+          "notes": "- First public beta\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- You need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: 3D models on character select, anime portraits, Android 21, Space Planet (its slot plays Planet)"
+        }
+      ]
     }
   ]
 }
