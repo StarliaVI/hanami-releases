@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.5",
+    "date": "2026-11-24",
+    "notes": "Store: recomp builds bigger than 100 MB can now be downloaded (they come in parts and are joined automatically) - needed for Dragon Ball Raging Blast REBORN"
+  },
+  {
     "version": "4.6.4",
     "date": "2026-11-22",
     "notes": "- PS5 Remote Play picker now has a Bitrate control (Auto / 30 / 50 / 100 Mbps). On auto, 1080p only gets ~15 Mbps — bump it to 50 on a wired/strong LAN and the picture gets noticeably sharper.\n- Note: PS5 Remote Play maxes out at 1080p (Sony's cap), so bitrate is the lever for crispness, not higher resolution."

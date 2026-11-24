@@ -1,13 +1,13 @@
 {
-  "version": "4.6.4",
+  "version": "4.6.5",
   "electron": "45.3.2",
-  "date": "2026-11-22T06:01:14.921Z",
-  "notes": "- PS5 Remote Play picker now has a Bitrate control (Auto / 30 / 50 / 100 Mbps). On auto, 1080p only gets ~15 Mbps — bump it to 50 on a wired/strong LAN and the picture gets noticeably sharper.\n- Note: PS5 Remote Play maxes out at 1080p (Sony's cap), so bitrate is the lever for crispness, not higher resolution.",
+  "date": "2026-11-24T22:58:39.607Z",
+  "notes": "Store: recomp builds bigger than 100 MB can now be downloaded (they come in parts and are joined automatically) - needed for Dragon Ball Raging Blast REBORN",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "47ff58038543f261ac22d5ed6c40c2646d4c1c7fc4a4e0f6c13415de299ebc45",
-      "size": 1775903
+      "sha256": "356f30c16a3c9c61c7183d057b3def6f9c1c8541cf2879c6d2b417be82d5ff9e",
+      "size": 1777056
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
