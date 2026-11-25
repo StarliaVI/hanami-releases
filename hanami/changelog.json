@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.9",
+    "date": "2026-11-25",
+    "notes": "- Games that start through a small launcher (like Dragon Ball: Raging Blast Reborn) now count their playtime: Hanami follows the real game program after the launcher closes, instead of ending the session after 0 minutes.\n- The Home button now opens Hanami's overlay over those games, instead of pulling the whole Hanami window up on top of them.\n- Store games now take the store's name when it changes (unless you renamed the game yourself), and a Store cover can choose which part a square tile shows."
+  },
+  {
     "version": "4.6.8",
     "date": "2026-11-25",
     "notes": "- Graphics choice for recomps that have it: pick it when you install (for example Raging Blast REBORN: Native 720p, 1080p with AMD FSR, or 1440p), and change it any time on the game's page with the Graphics button."

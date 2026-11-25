@@ -494,16 +494,16 @@
     },
     {
       "id": "rb3",
-      "name": "Dragon Ball Raging Blast REBORN",
+      "name": "Dragon Ball: Raging Blast Reborn",
       "platform": "Xbox 360",
       "tagline": "Raging Blast 2 reborn · RB1's fighters & maps · Tag Team · rollback online",
       "description": "RB3 REBORN: Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, Tag Team battles and rollback online through the same server as WFC. Built on your PC from your own Raging Blast 2 and Raging Blast 1 (USA) discs — no game files are downloaded.",
       "status": "available",
       "requires": {
-        "title": "Dragon Ball: Raging Blast 2",
+        "title": "Dragon Ball: Raging Blast 1 & 2",
         "platform": "Xbox 360",
         "region": "USA",
-        "format": "ISO",
+        "format": "ISOs",
         "checkFile": "default.xex",
         "titleId": "4E4D0826",
         "dataBytes": 7000000000
@@ -535,13 +535,14 @@
           "SDK/out",
           "install.log"
         ],
-        "needs": "RB3 is built on your PC from your own discs: pick your Raging Blast 2 (USA) ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (RB3 uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
+        "needs": "Raging Blast Reborn is built on your PC from your own discs: it needs both your Raging Blast 2 (USA) and Raging Blast 1 (USA) ISOs. Pick your Raging Blast 2 ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (Reborn uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
       },
       "art": {
         "hero": "art/rb3/keyart.jpg",
-        "cover": "art/rb3/cover.jpg"
+        "cover": "art/rb3/cover-reborn.jpg",
+        "coverFocus": "50% 0%"
       },
-      "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
+      "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
           "version": "0.2.17",

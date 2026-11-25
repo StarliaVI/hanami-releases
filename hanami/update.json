@@ -1,13 +1,13 @@
 {
-  "version": "4.6.8",
+  "version": "4.6.9",
   "electron": "45.3.2",
-  "date": "2026-11-25T03:21:53.330Z",
-  "notes": "- Graphics choice for recomps that have it: pick it when you install (for example Raging Blast REBORN: Native 720p, 1080p with AMD FSR, or 1440p), and change it any time on the game's page with the Graphics button.",
+  "date": "2026-11-25T19:48:14.504Z",
+  "notes": "- Games that start through a small launcher (like Dragon Ball: Raging Blast Reborn) now count their playtime: Hanami follows the real game program after the launcher closes, instead of ending the session after 0 minutes.\n- The Home button now opens Hanami's overlay over those games, instead of pulling the whole Hanami window up on top of them.\n- Store games now take the store's name when it changes (unless you renamed the game yourself), and a Store cover can choose which part a square tile shows.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "cf5e4a1c75250705d23ba0c7411765497d6496b9b39735221d04cf7646a8664f",
-      "size": 1788332
+      "sha256": "d91416686dd31dedb905cf28f41a76388ec37b537d75e92d3739712c8d8d0721",
+      "size": 1791756
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
