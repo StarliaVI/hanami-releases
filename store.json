@@ -532,6 +532,7 @@
           "mod_work/title_screen/test_data",
           "mod_work/rb3_exe/rb3_ultimates_selected.txt",
           "mod_work/character_select/cs3d",
+          "SDK/out",
           "install.log"
         ],
         "needs": "RB3 is built on your PC from your own discs: pick your Raging Blast 2 (USA) ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (RB3 uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
@@ -543,16 +544,16 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.4",
-          "file": "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part0",
+          "version": "0.2.5",
+          "file": "builds/rb3/RB3-REBORN-0.2.5-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.5-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.5-beta.zip.part1"
           ],
-          "size": 138877845,
+          "size": 138881996,
           "date": "2026-11-25",
           "rebuild": false,
-          "notes": "- Graphics choice: Native 720p, 1080p with AMD FSR (recommended - sharp and light), or 1440p (very demanding). Change it any time with the Graphics button on the game's page\n- This update compiles the game again once to add FSR (about 20 minutes) - you can hide it and keep using Hanami\n- Update Hanami first (press F2, 4.6.8 or newer) so the Graphics choice works\n- Rollback online between players, fast graphics card on laptops\n- 3D fighters on character select, made from your own Raging Blast 2 disc\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Fixed: a ki charge (or other looping) sound could keep playing online after nobody was charging\n- Updates that change the game's code now compile only the files that changed - a few minutes instead of the whole game\n- Graphics choice: Native 720p, 1080p with AMD FSR (recommended), or 1440p - the Graphics button on the game's page\n- Update Hanami first (press F2, 4.6.8 or newer)\n- Rollback online, fast graphics card on laptops, 3D fighters on character select\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
       ],
       "launch": {
