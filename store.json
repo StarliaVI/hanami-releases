@@ -544,16 +544,16 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.12",
-          "file": "builds/rb3/RB3-REBORN-0.2.12-beta.zip.part0",
+          "version": "0.2.13",
+          "file": "builds/rb3/RB3-REBORN-0.2.13-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.12-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.12-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.13-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.13-beta.zip.part1"
           ],
-          "size": 138886645,
+          "size": 138887598,
           "date": "2026-11-25",
           "rebuild": false,
-          "notes": "- Fixed (online): the desync when a knocked-away fighter hits a wall - while someone is knocked away or against a wall, the game now waits for the other player's real input instead of guessing it\n- The desync recorder stays on for now (both players need this version)\n- This update compiles one changed game file again\n- Fixed: F3 said 'not during online play' in the menus for everyone with the online server set up - it now only refuses during an online battle\n- New: press F3 in the game to unlock everything (characters, costumes, skills, stages, music, modes, collections, Galaxy Mode courses); it is kept the next time the game saves. Not during online play\n- The debug overlay moved from F3 to F9\n- Fixed: a new install could stop with 'Still missing after install: CMake' even though the build tools were there\n- Fixed: a ki charge (or other looping) sound could keep playing online after nobody was charging\n- Graphics choice: Native 720p, 1080p with AMD FSR (recommended), or 1440p - the Graphics button on the game's page\n- Update Hanami first (press F2, 4.6.8 or newer)\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Desync hunt: the recorder now keeps the last 10 seconds of the fight (the file stays a few MB) and lists the frames each copy replayed (both players need this version)\n- Fixed (online): the desync when a knocked-away fighter hits a wall - while someone is knocked away or against a wall, the game now waits for the other player's real input instead of guessing it\n- This update compiles one changed game file again\n- Fixed: F3 said 'not during online play' in the menus for everyone with the online server set up - it now only refuses during an online battle\n- New: press F3 in the game to unlock everything (characters, costumes, skills, stages, music, modes, collections, Galaxy Mode courses); it is kept the next time the game saves. Not during online play\n- The debug overlay moved from F3 to F9\n- Fixed: a new install could stop with 'Still missing after install: CMake' even though the build tools were there\n- Fixed: a ki charge (or other looping) sound could keep playing online after nobody was charging\n- Graphics choice: Native 720p, 1080p with AMD FSR (recommended), or 1440p - the Graphics button on the game's page\n- Update Hanami first (press F2, 4.6.8 or newer)\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
       ],
       "launch": {
