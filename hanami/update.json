@@ -1,13 +1,13 @@
 {
-  "version": "4.6.5",
+  "version": "4.6.6",
   "electron": "45.3.2",
-  "date": "2026-11-24T22:58:39.607Z",
-  "notes": "Store: recomp builds bigger than 100 MB can now be downloaded (they come in parts and are joined automatically) - needed for Dragon Ball Raging Blast REBORN",
+  "date": "2026-11-25T01:45:47.883Z",
+  "notes": "- Store: installs and updates no longer fail with \"operation not permitted\" when antivirus is still checking the new files - Hanami waits, retries, and moves files one by one if it has to.\n- If an update still can't finish, your old install, game files and online login are put back exactly as they were. Nothing gets deleted.\n- Hanami won't start an update while that game is open.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "356f30c16a3c9c61c7183d057b3def6f9c1c8541cf2879c6d2b417be82d5ff9e",
-      "size": 1777056
+      "sha256": "dc9239dab4d6bc3af8467c9c956c1f705e78697202a6f5d2d5099f637d54824e",
+      "size": 1783148
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
