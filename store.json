@@ -542,16 +542,16 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.1.5",
-          "file": "builds/rb3/RB3-REBORN-0.1.5-beta.zip.part0",
+          "version": "0.2.0",
+          "file": "builds/rb3/RB3-REBORN-0.2.0-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.1.5-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.1.5-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.0-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.0-beta.zip.part1"
           ],
-          "size": 136081249,
-          "date": "2026-11-24",
+          "size": 138590641,
+          "date": "2026-11-25",
           "rebuild": false,
-          "notes": "- Starts with a fresh profile and save (a test save was included by mistake)\n- First working public beta build\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- You need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: 3D models on character select, anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Online menu header fixed (no more “Xbox LIVE” band)\n- Animated title sky is back, plus the VS graphic and RB1 portraits\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- You need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: 3D models on character select, anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
       ]
     }
