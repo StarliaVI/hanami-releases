@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.8",
+    "date": "2026-11-25",
+    "notes": "- Graphics choice for recomps that have it: pick it when you install (for example Raging Blast REBORN: Native 720p, 1080p with AMD FSR, or 1440p), and change it any time on the game's page with the Graphics button."
+  },
+  {
     "version": "4.6.7",
     "date": "2026-11-25",
     "notes": "- Recomps on laptops now run on your fast graphics card. Hanami already told Windows to use it for the game's launcher, but not for the real game program the launcher opens - so on laptops with two GPUs the game ran on the slow built-in one, making menus play in slow motion and online matches desync. Hanami now sets it for every program in the recomp's folder each time you play (fixes Raging Blast REBORN and War for Cybertron)."

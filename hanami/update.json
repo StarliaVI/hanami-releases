@@ -1,13 +1,13 @@
 {
-  "version": "4.6.7",
+  "version": "4.6.8",
   "electron": "45.3.2",
-  "date": "2026-11-25T02:35:12.681Z",
-  "notes": "- Recomps on laptops now run on your fast graphics card. Hanami already told Windows to use it for the game's launcher, but not for the real game program the launcher opens - so on laptops with two GPUs the game ran on the slow built-in one, making menus play in slow motion and online matches desync. Hanami now sets it for every program in the recomp's folder each time you play (fixes Raging Blast REBORN and War for Cybertron).",
+  "date": "2026-11-25T03:21:53.330Z",
+  "notes": "- Graphics choice for recomps that have it: pick it when you install (for example Raging Blast REBORN: Native 720p, 1080p with AMD FSR, or 1440p), and change it any time on the game's page with the Graphics button.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "49300ae2397d99a02019afed1d48649198df9dd17f817e0680ffa0d73859428f",
-      "size": 1784895
+      "sha256": "cf5e4a1c75250705d23ba0c7411765497d6496b9b39735221d04cf7646a8664f",
+      "size": 1788332
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
