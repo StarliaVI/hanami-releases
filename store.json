@@ -542,16 +542,16 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.1-beta.zip.part0",
+          "version": "0.2.2",
+          "file": "builds/rb3/RB3-REBORN-0.2.2-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.1-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.1-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.2-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.2-beta.zip.part1"
           ],
-          "size": 138873867,
+          "size": 138874683,
           "date": "2026-11-25",
           "rebuild": false,
-          "notes": "- 3D fighters on character select: every fighter and costume is made from your own Raging Blast 2 disc during the update (a minute or two)\n- Quick update: the game isn't rebuilt and it won't ask for your discs again\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Needs Hanami 4.6.5 or newer (press F2) — the download comes in two parts\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Install no longer stops with \"Access is denied\" when your antivirus is still checking a file the build just made - it waits and carries on by itself\n- Update Hanami first (press F2, 4.6.6 or newer) so installs and updates survive antivirus too\n- 3D fighters on character select, made from your own Raging Blast 2 disc\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
       ]
     }
