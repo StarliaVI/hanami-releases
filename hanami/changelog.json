@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.7",
+    "date": "2026-11-25",
+    "notes": "- Recomps on laptops now run on your fast graphics card. Hanami already told Windows to use it for the game's launcher, but not for the real game program the launcher opens - so on laptops with two GPUs the game ran on the slow built-in one, making menus play in slow motion and online matches desync. Hanami now sets it for every program in the recomp's folder each time you play (fixes Raging Blast REBORN and War for Cybertron)."
+  },
+  {
     "version": "4.6.6",
     "date": "2026-11-25",
     "notes": "- Store: installs and updates no longer fail with \"operation not permitted\" when antivirus is still checking the new files - Hanami waits, retries, and moves files one by one if it has to.\n- If an update still can't finish, your old install, game files and online login are put back exactly as they were. Nothing gets deleted.\n- Hanami won't start an update while that game is open."
