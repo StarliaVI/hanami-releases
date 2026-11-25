@@ -531,6 +531,7 @@
           "mod_work/title_screen/patches",
           "mod_work/title_screen/test_data",
           "mod_work/rb3_exe/rb3_ultimates_selected.txt",
+          "mod_work/character_select/cs3d",
           "install.log"
         ],
         "needs": "RB3 is built on your PC from your own discs: pick your Raging Blast 2 (USA) ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (RB3 uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
@@ -542,18 +543,56 @@
       "credits": "Dragon Ball Raging Blast REBORN by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.3",
-          "file": "builds/rb3/RB3-REBORN-0.2.3-beta.zip.part0",
+          "version": "0.2.4",
+          "file": "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.3-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.3-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.4-beta.zip.part1"
           ],
-          "size": 138876793,
+          "size": 138877845,
           "date": "2026-11-25",
           "rebuild": false,
-          "notes": "- Rollback online now connects between players: it used to refuse anyone whose PC compiled the game slightly differently (every tester), so matches fell back to the old netcode\n- The game now picks your fast graphics card on laptops (no more slow-motion menus)\n- This update compiles the game again once (about 20 minutes) - you can hide it and keep using Hanami\n- Update Hanami first (press F2, 4.6.7 or newer)\n- 3D fighters on character select, made from your own Raging Blast 2 disc\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
+          "notes": "- Graphics choice: Native 720p, 1080p with AMD FSR (recommended - sharp and light), or 1440p (very demanding). Change it any time with the Graphics button on the game's page\n- This update compiles the game again once to add FSR (about 20 minutes) - you can hide it and keep using Hanami\n- Update Hanami first (press F2, 4.6.8 or newer) so the Graphics choice works\n- Rollback online between players, fast graphics card on laptops\n- 3D fighters on character select, made from your own Raging Blast 2 disc\n- New installs: you need your own Raging Blast 2 AND Raging Blast 1 (USA) Xbox 360 ISOs\n- Not in the public beta yet: anime portraits, Android 21, Space Planet (its slot plays Planet)"
         }
-      ]
+      ],
+      "launch": {
+        "exe": "Play Raging Blast 2.exe",
+        "cwd": ".",
+        "profileFile": "TagTeam/play_launch_args.txt",
+        "defaultProfile": "fsr1080",
+        "profiles": [
+          {
+            "id": "native720",
+            "name": "Native 720p",
+            "desc": "The game's own resolution - lightest on your PC, but blurry and jagged on today's screens.",
+            "lines": [
+              "--resolution_scale=1",
+              "--present_effect=bilinear",
+              "--tag_team_present_max_height=0"
+            ]
+          },
+          {
+            "id": "fsr1080",
+            "name": "1080p (FSR)",
+            "desc": "Drawn at 720p and upscaled to 1080p with AMD FSR - looks much better and stays light. Recommended.",
+            "lines": [
+              "--resolution_scale=1",
+              "--present_effect=fsr",
+              "--tag_team_present_max_height=1080"
+            ]
+          },
+          {
+            "id": "q1440",
+            "name": "1440p",
+            "desc": "Drawn at 2560x1440 - the sharpest picture, but very demanding: needs a strong graphics card.",
+            "lines": [
+              "--resolution_scale=2",
+              "--present_effect=bilinear",
+              "--tag_team_present_max_height=0"
+            ]
+          }
+        ]
+      }
     }
   ]
 }
