@@ -1,13 +1,13 @@
 {
-  "version": "4.6.13",
+  "version": "4.6.14",
   "electron": "45.3.2",
-  "date": "2026-11-26T05:15:30.700Z",
-  "notes": "Game titles now line up exactly with the badges and buttons under them",
+  "date": "2026-11-26T05:19:36.681Z",
+  "notes": "Game titles show their full letters (the bottoms of letters like g were cut off)",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "904a529fde1c03ed8236b407bff2fdfda6b9a293a9aaa7be6ea90d120d90d53f",
-      "size": 1815148
+      "sha256": "7420a93e87817deeb77ec3bc9dd772e9bcff60974c9087e4f3ab1a97555293fc",
+      "size": 1815662
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
