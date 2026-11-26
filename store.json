@@ -625,9 +625,16 @@
           {
             "name": "Treantz",
             "url": "https://www.youtube.com/@Treantz",
-            "image": "art/rb3/creator-treantz.jpg"
+            "image": "art/rb3/creator-treantz-mui.jpg"
           }
-        ]
+        ],
+        "thanks": {
+          "text": "Special thanks to our testers Dahakakiller & Mely",
+          "names": [
+            "Dahakakiller",
+            "Mely"
+          ]
+        }
       }
     }
   ]
