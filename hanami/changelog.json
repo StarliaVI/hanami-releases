@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.13",
+    "date": "2026-11-26",
+    "notes": "Game titles now line up exactly with the badges and buttons under them"
+  },
+  {
     "version": "4.6.12",
     "date": "2026-11-26",
     "notes": "- Change Gamertag: online recomps (like Dragon Ball: Raging Blast Reborn) have a Change Gamertag button next to Graphics. If someone already has the name, Hanami tells you before anything changes, and your progress stays with you. You can change it once every 24 hours.\n- Your earlier gamertags are kept in that window, so you can switch back to one."
