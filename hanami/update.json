@@ -1,13 +1,13 @@
 {
-  "version": "4.6.9",
+  "version": "4.6.10",
   "electron": "45.3.2",
-  "date": "2026-11-25T19:48:14.504Z",
-  "notes": "- Games that start through a small launcher (like Dragon Ball: Raging Blast Reborn) now count their playtime: Hanami follows the real game program after the launcher closes, instead of ending the session after 0 minutes.\n- The Home button now opens Hanami's overlay over those games, instead of pulling the whole Hanami window up on top of them.\n- Store games now take the store's name when it changes (unless you renamed the game yourself), and a Store cover can choose which part a square tile shows.",
+  "date": "2026-11-26T03:31:58.299Z",
+  "notes": "- Uninstall is now all or nothing: if any program still has a file open in the game's folder, Hanami tells you what to close and deletes nothing. Before, it could stop half way, leaving most of the game deleted but still listed as installed.\n- The Folder button works again when some of the game's files are missing, and the Explorer window now opens in front of Hanami instead of behind it.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "d91416686dd31dedb905cf28f41a76388ec37b537d75e92d3739712c8d8d0721",
-      "size": 1791756
+      "sha256": "f7db0a781b6cff4957b13356c247ebcb9e4b308a7ed5a4c38ba69fbd481ea8cf",
+      "size": 1797149
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

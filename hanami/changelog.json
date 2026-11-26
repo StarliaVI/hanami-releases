@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.10",
+    "date": "2026-11-26",
+    "notes": "- Uninstall is now all or nothing: if any program still has a file open in the game's folder, Hanami tells you what to close and deletes nothing. Before, it could stop half way, leaving most of the game deleted but still listed as installed.\n- The Folder button works again when some of the game's files are missing, and the Explorer window now opens in front of Hanami instead of behind it."
+  },
+  {
     "version": "4.6.9",
     "date": "2026-11-25",
     "notes": "- Games that start through a small launcher (like Dragon Ball: Raging Blast Reborn) now count their playtime: Hanami follows the real game program after the launcher closes, instead of ending the session after 0 minutes.\n- The Home button now opens Hanami's overlay over those games, instead of pulling the whole Hanami window up on top of them.\n- Store games now take the store's name when it changes (unless you renamed the game yourself), and a Store cover can choose which part a square tile shows."
