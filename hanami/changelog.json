@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.11",
+    "date": "2026-11-26",
+    "notes": "- Store: a game can now show a notice on its page and a badge on its card - Dragon Ball: Raging Blast Reborn shows that it's a beta.\n- Store games can have a release name instead of a version number (Raging Blast Reborn is BETA 0.1); it shows in the Store, on the game page and in update messages."
+  },
+  {
     "version": "4.6.10",
     "date": "2026-11-26",
     "notes": "- Uninstall is now all or nothing: if any program still has a file open in the game's folder, Hanami tells you what to close and deletes nothing. Before, it could stop half way, leaving most of the game deleted but still listed as installed.\n- The Folder button works again when some of the game's files are missing, and the Explorer window now opens in front of Hanami instead of behind it."

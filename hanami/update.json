@@ -1,13 +1,13 @@
 {
-  "version": "4.6.10",
+  "version": "4.6.11",
   "electron": "45.3.2",
-  "date": "2026-11-26T03:31:58.299Z",
-  "notes": "- Uninstall is now all or nothing: if any program still has a file open in the game's folder, Hanami tells you what to close and deletes nothing. Before, it could stop half way, leaving most of the game deleted but still listed as installed.\n- The Folder button works again when some of the game's files are missing, and the Explorer window now opens in front of Hanami instead of behind it.",
+  "date": "2026-11-26T03:41:01.447Z",
+  "notes": "- Store: a game can now show a notice on its page and a badge on its card - Dragon Ball: Raging Blast Reborn shows that it's a beta.\n- Store games can have a release name instead of a version number (Raging Blast Reborn is BETA 0.1); it shows in the Store, on the game page and in update messages.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "f7db0a781b6cff4957b13356c247ebcb9e4b308a7ed5a4c38ba69fbd481ea8cf",
-      "size": 1797149
+      "sha256": "0ccfec8a3b5e72b5fd33943b31f1351efb10647bb473aac8acce0527c2908d58",
+      "size": 1801074
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
