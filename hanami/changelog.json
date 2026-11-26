@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.17",
+    "date": "2026-11-26",
+    "notes": "Store games can show a one-time What's new popup after they update - Raging Blast Reborn's lists everything fixed for BETA 0.1"
+  },
+  {
     "version": "4.6.16",
     "date": "2026-11-26",
     "notes": "Store: a thank-you line for Raging Blast Reborn's testers under its Store page, install and update screens"

@@ -1,13 +1,13 @@
 {
-  "version": "4.6.16",
+  "version": "4.6.17",
   "electron": "45.3.2",
-  "date": "2026-11-26T06:49:23.807Z",
-  "notes": "Store: a thank-you line for Raging Blast Reborn's testers under its Store page, install and update screens",
+  "date": "2026-11-26T07:38:53.952Z",
+  "notes": "Store games can show a one-time What's new popup after they update - Raging Blast Reborn's lists everything fixed for BETA 0.1",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "c580f61c12241a538b63760ea29aa92d53b440451f5cc6cc236a5a3dd4bc27c6",
-      "size": 1826980
+      "sha256": "40f7f7946a419b1396f2a25f6444d02f566ddb31e87ffcd37db9f0b631abdebd",
+      "size": 1830489
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
