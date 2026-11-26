@@ -1,13 +1,13 @@
 {
-  "version": "4.6.17",
+  "version": "4.6.18",
   "electron": "45.3.2",
-  "date": "2026-11-26T07:38:53.952Z",
-  "notes": "Store games can show a one-time What's new popup after they update - Raging Blast Reborn's lists everything fixed for BETA 0.1",
+  "date": "2026-11-26T09:05:49.833Z",
+  "notes": "Install screens can show their notes as separate paragraphs",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "40f7f7946a419b1396f2a25f6444d02f566ddb31e87ffcd37db9f0b631abdebd",
-      "size": 1830489
+      "sha256": "ac1ac9dd1b1071eb73e1cadb9f6427c1334b249f2248c3eb57d29cec4352067d",
+      "size": 1830629
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
