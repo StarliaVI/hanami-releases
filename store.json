@@ -550,22 +550,22 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.32",
+          "version": "0.2.33",
           "label": "BETA 0.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.32-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.33-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.32-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.32-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.32-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.33-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.33-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.33-beta.zip.part2"
           ],
-          "size": 147845516,
+          "size": 147845896,
           "date": "2026-11-26",
           "rebuild": false,
-          "notes": "- 8-fighter battles hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: the camera turns to whoever hits you, ki blasts no longer swing it, CPU ki blasts stay on target, and far-away fighters sound far away\n- Fixed a crash at the end of Tag Team matches\n- Space Planet loads its own map\n- New graphics options: Potato (480p) for weak PCs and laptops, and Ultrawide 3440x1440 for 21:9 monitors\n- Character select, result screen and online fixes\n- Coming from before BETA 0.1, the update compiles the game again - both players need the same version to play online\n",
+          "notes": "- 8-fighter battles hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: the camera turns to whoever hits you, ki blasts no longer swing it, CPU ki blasts stay on target, and far-away fighters sound far away\n- Fixed a crash at the end of Tag Team matches\n- Space Planet loads its own map\n- New graphics options: Potato (480p) for weak PCs and laptops (much faster on Intel graphics), and Ultrawide 3440x1440 for 21:9 monitors\n- Character select, result screen and online fixes\n- Coming from before BETA 0.1, the update compiles the game again - both players need the same version to play online\n",
           "popup": {
             "title": "What's new in BETA 0.1",
             "subtitle": "Everything we fixed and added in this update ✿",
-            "notes": "## Fights\n- 8-fighter battles now hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: when someone hits you, your camera turns to them, and it no longer bounces between attackers\n- Tag Team: ki blasts no longer swing your camera around, and a CPU's ki blasts stay on the fighter it aimed at\n- Tag Team: far-away fighters sound far away - their hits and voices fade with distance\n- Fixed a crash at the end of Tag Team matches\n- Space Planet now loads its own map (it played as Planet Namek before)\n## Menus & online\n- Character select: the 3D fighters show cleanly - no portrait flashes, no stray pillar on Cell or goo on Buu\n- Result screen: the timer, points and rank all sit where they belong\n- Online: tested on every stage with no desyncs\n- Updates only ask for your Raging Blast 1 ISO when it's really needed\n## Graphics\n- New Potato (480p) option for weak PCs and laptops - the lightest way to play\n- New Ultrawide 3440x1440 option for 21:9 monitors: the fight fills the whole screen with the HUD at the edges, menus show in 16:9, and nothing pops in at the sides\n## Hanami\n- Change your gamertag from the game's page - it warns you if a name is taken and remembers your old ones\n- The Folder and Uninstall buttons work properly\n- Game titles line up neatly and show every letter\n- Meet the creators, Katisaki & Treantz, on the Store page - with special thanks to our testers Dahakakiller & Mely\n"
+            "notes": "## Fights\n- 8-fighter battles now hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: when someone hits you, your camera turns to them, and it no longer bounces between attackers\n- Tag Team: ki blasts no longer swing your camera around, and a CPU's ki blasts stay on the fighter it aimed at\n- Tag Team: far-away fighters sound far away - their hits and voices fade with distance\n- Fixed a crash at the end of Tag Team matches\n- Space Planet now loads its own map (it played as Planet Namek before)\n## Menus & online\n- Character select: the 3D fighters show cleanly - no portrait flashes, no stray pillar on Cell or goo on Buu\n- Result screen: the timer, points and rank all sit where they belong\n- Online: tested on every stage with no desyncs\n- Updates only ask for your Raging Blast 1 ISO when it's really needed\n## Graphics\n- New Potato (480p) option for weak PCs and laptops - the lightest way to play, with a much faster drawing method on Intel graphics\n- New Ultrawide 3440x1440 option for 21:9 monitors: the fight fills the whole screen with the HUD at the edges, menus show in 16:9, and nothing pops in at the sides\n## Hanami\n- Change your gamertag from the game's page - it warns you if a name is taken and remembers your old ones\n- The Folder and Uninstall buttons work properly\n- Game titles line up neatly and show every letter\n- Meet the creators, Katisaki & Treantz, on the Store page - with special thanks to our testers Dahakakiller & Mely\n"
           }
         }
       ],
@@ -578,11 +578,14 @@
           {
             "id": "potato480",
             "name": "Potato (480p)",
-            "desc": "The lightest option, for weak PCs and laptops: the picture is shown at 480p and stretched to fit your screen, so it looks softer. The game itself still draws at its own 720p.",
+            "desc": "The lightest option, for weak PCs and laptops: the picture is shown at 480p and stretched to fit your screen, so it looks softer. It also uses the faster drawing method on Intel graphics and skips the fight recordings kept for testing. The game itself still draws at its own 720p.",
             "lines": [
               "--resolution_scale=1",
               "--present_effect=bilinear",
-              "--tag_team_present_max_height=480"
+              "--tag_team_present_max_height=480",
+              "--render_target_path_d3d12=rtv",
+              "--online_trace=false",
+              "--online_desync_images=false"
             ]
           },
           {
