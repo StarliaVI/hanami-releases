@@ -550,17 +550,17 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.25",
+          "version": "0.2.26",
           "label": "BETA 0.1.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.25-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.26-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.25-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.25-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.26-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.26-beta.zip.part1"
           ],
-          "size": 139063681,
+          "size": 139065267,
           "date": "2026-11-26",
           "rebuild": false,
-          "notes": "- Graphics: a new Ultrawide 3440x1440 option for 21:9 monitors (still being tested). The fight fills the whole screen while the HUD and menus stay in the middle. It's very demanding on your graphics card\n- This update compiles a few game files again (both players need this version to play online)\n- The first public beta of Dragon Ball: Raging Blast Reborn ✿\n- Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, a live 3D character select, Tag Team battles and rollback online"
+          "notes": "- Graphics: a new Ultrawide 3440x1440 option for 21:9 monitors (still being tested). The fight fills the whole screen and the HUD sits at the screen edges. It's very demanding on your graphics card\n- This update compiles a few game files again (both players need this version to play online)\n- The first public beta of Dragon Ball: Raging Blast Reborn ✿\n- Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, a live 3D character select, Tag Team battles and rollback online"
         }
       ],
       "launch": {
