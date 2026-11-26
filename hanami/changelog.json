@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.19",
+    "date": "2026-11-26",
+    "notes": "Closing Hanami from the taskbar (or Alt+F4) now fully closes it - no more Task Manager"
+  },
+  {
     "version": "4.6.18",
     "date": "2026-11-26",
     "notes": "Install screens can show their notes as separate paragraphs"
