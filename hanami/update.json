@@ -1,13 +1,13 @@
 {
-  "version": "4.6.14",
+  "version": "4.6.15",
   "electron": "45.3.2",
-  "date": "2026-11-26T05:19:36.681Z",
-  "notes": "Game titles show their full letters (the bottoms of letters like g were cut off)",
+  "date": "2026-11-26T06:10:13.866Z",
+  "notes": "Store: Raging Blast Reborn's creators, Katisaki and Treantz, now sit beside its Store page, install and update screens - click either one to visit their YouTube channel",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "7420a93e87817deeb77ec3bc9dd772e9bcff60974c9087e4f3ab1a97555293fc",
-      "size": 1815662
+      "sha256": "7302b1c7c6aa8e15ff620bf214ec4c2bf3890a019b1b2f8f6f8d70e9c7b1b14b",
+      "size": 1825565
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",
