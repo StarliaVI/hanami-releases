@@ -550,17 +550,18 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.29",
-          "label": "BETA 0.1.3",
-          "file": "builds/rb3/RB3-REBORN-0.2.29-beta.zip.part0",
+          "version": "0.2.30",
+          "label": "BETA 0.1.4",
+          "file": "builds/rb3/RB3-REBORN-0.2.30-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.29-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.29-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.30-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.30-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.30-beta.zip.part2"
           ],
-          "size": 139072557,
+          "size": 147841231,
           "date": "2026-11-26",
           "rebuild": false,
-          "notes": "- Smoother: 8-fighter battles now hold 60 fps, and every mode runs a little faster\n- Tag Team Battles: fighters far away from your camera now sound far away - their hits and voices get quieter with distance, while your own fighter and anything on screen stay loud\n- This update compiles the game again (both players need this version to play online)\n- Ultrawide (21:9): the whole map is now drawn across the full width - no more missing pieces or pop-in at the screen edges\n- Graphics: a new Ultrawide 3440x1440 option for 21:9 monitors (still being tested). The fight fills the whole screen with the HUD at the screen edges, and menus show in 16:9. It's very demanding on your graphics card\n- The first public beta of Dragon Ball: Raging Blast Reborn ✿\n- Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, a live 3D character select, Tag Team battles and rollback online"
+          "notes": "- Space Planet is now playable: picking it loads the real Space Planet map (it played as Planet Namek before). Both players need this version to play it online\n- Smoother: 8-fighter battles now hold 60 fps, and every mode runs a little faster\n- Tag Team Battles: fighters far away from your camera now sound far away - their hits and voices get quieter with distance, while your own fighter and anything on screen stay loud\n- This update compiles the game again (both players need this version to play online)\n- Ultrawide (21:9): the whole map is now drawn across the full width - no more missing pieces or pop-in at the screen edges\n- Graphics: a new Ultrawide 3440x1440 option for 21:9 monitors (still being tested). The fight fills the whole screen with the HUD at the screen edges, and menus show in 16:9. It's very demanding on your graphics card\n- The first public beta of Dragon Ball: Raging Blast Reborn ✿\n- Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, a live 3D character select, Tag Team battles and rollback online"
         }
       ],
       "launch": {
