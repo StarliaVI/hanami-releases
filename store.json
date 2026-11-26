@@ -598,6 +598,34 @@
               "--present_effect=bilinear",
               "--tag_team_present_max_height=0"
             ]
+          },
+          {
+            "id": "uw1440",
+            "name": "Ultrawide 3440x1440",
+            "desc": "For 21:9 monitors: the fight fills the whole screen with the HUD at the screen edges; menus and the pause screen show in 16:9. Drawn at 3840x1440 - very demanding, needs a strong graphics card. New and still being tested.",
+            "lines": [
+              "--draw_resolution_scale_x=3",
+              "--draw_resolution_scale_y=2",
+              "--present_effect=bilinear",
+              "--present_letterbox=false",
+              "--tag_team_present_max_height=0",
+              "--rb3_ultrawide_aspect=2.3889"
+            ]
+          }
+        ]
+      },
+      "creators": {
+        "title": "Developed with love by Katisaki & Treantz",
+        "people": [
+          {
+            "name": "Katisaki",
+            "url": "https://www.youtube.com/@Katisaki",
+            "image": "art/rb3/creator-katisaki.jpg"
+          },
+          {
+            "name": "Treantz",
+            "url": "https://www.youtube.com/@Treantz",
+            "image": "art/rb3/creator-treantz.jpg"
           }
         ]
       }
