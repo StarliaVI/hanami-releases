@@ -540,7 +540,7 @@
           "SDK/out",
           "install.log"
         ],
-        "needs": "Raging Blast Reborn is built on your PC from your own discs: it needs both your Raging Blast 2 (USA) and Raging Blast 1 (USA) ISOs. Pick your Raging Blast 2 ISO here, and the installer then asks for your Raging Blast 1 (USA) ISO (Reborn uses its characters and maps). If they're missing, Hanami installs the free build tools first — CMake, Ninja, LLVM/Clang and Visual Studio Build Tools — and Windows asks you to allow each one. Building takes about 10–25 minutes and needs about 40 GB free."
+        "needs": "Raging Blast Reborn is built on your PC from your own discs: it needs your Raging Blast 2 (USA) and Raging Blast 1 (USA) ISOs. Pick your Raging Blast 2 ISO here, and the installer then asks for Raging Blast 1 (Reborn uses its characters and maps).\n\nFirst install only: to build the game, Hanami installs Microsoft's free C++ build tools if they're missing - Visual Studio Build Tools, plus CMake, Ninja and LLVM/Clang. Windows asks you to allow each one, and the Visual Studio Installer may pop up while they install - that's expected.\n\nPlease keep these tools installed afterwards: every Reborn update rebuilds the game on your PC with them, so removing them means the next update has to download them all again.\n\nBuilding takes about 10-25 minutes and needs about 40 GB free."
       },
       "art": {
         "hero": "art/rb3/keyart.jpg",
