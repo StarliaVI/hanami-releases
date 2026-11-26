@@ -552,12 +552,12 @@
         {
           "version": "0.2.24",
           "label": "BETA 0.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.24-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.24-beta-r2.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.24-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.24-beta.zip.part1"
+            "builds/rb3/RB3-REBORN-0.2.24-beta-r2.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.24-beta-r2.zip.part1"
           ],
-          "size": 139058375,
+          "size": 139061795,
           "date": "2026-11-26",
           "rebuild": false,
           "notes": "- The first public beta of Dragon Ball: Raging Blast Reborn ✿\n- Raging Blast 2 rebuilt with Raging Blast 1's characters and maps, new menus, a live 3D character select, Tag Team battles and rollback online"
