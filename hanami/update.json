@@ -1,13 +1,13 @@
 {
-  "version": "4.6.11",
+  "version": "4.6.12",
   "electron": "45.3.2",
-  "date": "2026-11-26T03:41:01.447Z",
-  "notes": "- Store: a game can now show a notice on its page and a badge on its card - Dragon Ball: Raging Blast Reborn shows that it's a beta.\n- Store games can have a release name instead of a version number (Raging Blast Reborn is BETA 0.1); it shows in the Store, on the game page and in update messages.",
+  "date": "2026-11-26T04:43:03.738Z",
+  "notes": "- Change Gamertag: online recomps (like Dragon Ball: Raging Blast Reborn) have a Change Gamertag button next to Graphics. If someone already has the name, Hanami tells you before anything changes, and your progress stays with you. You can change it once every 24 hours.\n- Your earlier gamertags are kept in that window, so you can switch back to one.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "0ccfec8a3b5e72b5fd33943b31f1351efb10647bb473aac8acce0527c2908d58",
-      "size": 1801074
+      "sha256": "4615e847989f6980f4c43eaa1c790ccc90515102fb260c5b95e5f48009ff8a6f",
+      "size": 1813871
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

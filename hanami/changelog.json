@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.12",
+    "date": "2026-11-26",
+    "notes": "- Change Gamertag: online recomps (like Dragon Ball: Raging Blast Reborn) have a Change Gamertag button next to Graphics. If someone already has the name, Hanami tells you before anything changes, and your progress stays with you. You can change it once every 24 hours.\n- Your earlier gamertags are kept in that window, so you can switch back to one."
+  },
+  {
     "version": "4.6.11",
     "date": "2026-11-26",
     "notes": "- Store: a game can now show a notice on its page and a badge on its card - Dragon Ball: Raging Blast Reborn shows that it's a beta.\n- Store games can have a release name instead of a version number (Raging Blast Reborn is BETA 0.1); it shows in the Store, on the game page and in update messages."
