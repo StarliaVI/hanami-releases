@@ -561,7 +561,7 @@
           "size": 147845516,
           "date": "2026-11-26",
           "rebuild": false,
-          "notes": "- 8-fighter battles hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: the camera turns to whoever hits you, ki blasts no longer swing it, CPU ki blasts stay on target, and far-away fighters sound far away\n- Fixed a crash at the end of Tag Team matches\n- Space Planet loads its own map\n- New graphics options: Potato (480p) for weak PCs and laptops, and Ultrawide 3440x1440 for 21:9 monitors\n- Character select, result screen and online fixes\n- This update compiles the game again (both players need this version to play online)\n",
+          "notes": "- 8-fighter battles hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: the camera turns to whoever hits you, ki blasts no longer swing it, CPU ki blasts stay on target, and far-away fighters sound far away\n- Fixed a crash at the end of Tag Team matches\n- Space Planet loads its own map\n- New graphics options: Potato (480p) for weak PCs and laptops, and Ultrawide 3440x1440 for 21:9 monitors\n- Character select, result screen and online fixes\n- Coming from before BETA 0.1, the update compiles the game again - both players need the same version to play online\n",
           "popup": {
             "title": "What's new in BETA 0.1",
             "subtitle": "Everything we fixed and added in this update ✿",
