@@ -550,22 +550,22 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.41",
-          "label": "BETA 0.1.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.41-beta.zip.part0",
+          "version": "0.2.42",
+          "label": "BETA 0.2",
+          "file": "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.41-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.41-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.41-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part2"
           ],
-          "size": 149785119,
+          "size": 149755519,
           "date": "2026-11-27",
           "rebuild": false,
-          "notes": "- Online stage select: Up and Down now move the cursor online, just like offline.\n- Both players need BETA 0.1.1 to play online.\n",
+          "notes": "- 31 songs from Raging Blast 1, ready to pick on stage select.\n- Button icons that match your controller: Xbox Series, or DualSense when you use a PlayStation controller.\n- Recoloured VS and loading screens, and the game window is now called Raging Blast Reborn.\n- Fixes the crash in the movie Plan to Eradicate the Super Saiyans.\n- This update asks for your Raging Blast 1 ISO once.\n- Both players need BETA 0.2 to play online.\n",
           "popup": {
-            "title": "What's new in BETA 0.1.1",
-            "subtitle": "A quick hotfix ✿",
-            "notes": "## Online\n- Stage select: Up and Down now move the cursor online, just like offline\n## Installing\n- Installing and updating now works on every PC - the build no longer stops at the final step\n- Smaller download\n"
+            "title": "What's new in BETA 0.2",
+            "subtitle": "New music, new icons, new colours ✿",
+            "notes": "## Added\n- 31 songs from Raging Blast 1, ready to pick on stage select. This update asks for your Raging Blast 1 ISO once, because the songs come from your own copy\n- Button icons now match your controller: Xbox Series icons by default, and DualSense icons as soon as you use a PlayStation controller. They switch live, on every screen - the menus, stage select, the custom name screen, the replay window and the loading mini-game\n- The game window is now called Raging Blast Reborn, with a 4-star Dragon Ball icon\n## Changed\n- The VS screen is recoloured to match Reborn's look\n- The loading screen is recoloured to match\n## Fixed\n- Watching Plan to Eradicate the Super Saiyans no longer crashes the game - and nine more spots in the movie player that could crash the same way are fixed too\n- The loading mini-game no longer shows PS3 buttons\n- The song you pick on stage select now plays in battle in every mode (one mode used to swap it)\n## Online\n- Both players need BETA 0.2 to play online\n## Thanks\n- Button icons based on Zacksly's Xbox Series & PS5 Button Icons and Controls (CC BY 3.0, zacksly.itch.io), modified.\n"
           }
         }
       ],
