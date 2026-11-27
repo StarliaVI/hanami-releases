@@ -550,22 +550,22 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.42",
+          "version": "0.2.43",
           "label": "BETA 0.2",
-          "file": "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.43-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.42-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.43-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.43-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.43-beta.zip.part2"
           ],
-          "size": 149755519,
+          "size": 149897322,
           "date": "2026-11-27",
           "rebuild": false,
-          "notes": "- 31 songs from Raging Blast 1, ready to pick on stage select.\n- Button icons that match your controller: Xbox Series, or DualSense when you use a PlayStation controller.\n- Recoloured VS and loading screens, and the game window is now called Raging Blast Reborn.\n- Fixes the crash in the movie Plan to Eradicate the Super Saiyans.\n- This update asks for your Raging Blast 1 ISO once.\n- Both players need BETA 0.2 to play online.\n",
+          "notes": "- 31 songs from Raging Blast 1, ready to pick on stage select.\n- Button icons that match your controller: Xbox Series, or DualSense when you use a PlayStation controller - now in battle too.\n- Every Raging Blast 2-only fighter now has Raging Blast 1's cel shading.\n- Fighters on character select no longer look tired.\n- Online: you see your opponent's costume as they pick it.\n- Recoloured VS and loading screens, and the game window is now called Raging Blast Reborn.\n- Fixes the crash in the movie Plan to Eradicate the Super Saiyans.\n- This update asks for your Raging Blast 1 ISO once.\n- Both players need the latest BETA 0.2 to play online.\n",
           "popup": {
             "title": "What's new in BETA 0.2",
             "subtitle": "New music, new icons, new colours ✿",
-            "notes": "## Added\n- 31 songs from Raging Blast 1, ready to pick on stage select. This update asks for your Raging Blast 1 ISO once, because the songs come from your own copy\n- Button icons now match your controller: Xbox Series icons by default, and DualSense icons as soon as you use a PlayStation controller. They switch live, on every screen - the menus, stage select, the custom name screen, the replay window and the loading mini-game\n- The game window is now called Raging Blast Reborn, with a 4-star Dragon Ball icon\n## Changed\n- The VS screen is recoloured to match Reborn's look\n- The loading screen is recoloured to match\n## Fixed\n- Watching Plan to Eradicate the Super Saiyans no longer crashes the game - and nine more spots in the movie player that could crash the same way are fixed too\n- The loading mini-game no longer shows PS3 buttons\n- The song you pick on stage select now plays in battle in every mode (one mode used to swap it)\n## Online\n- Both players need BETA 0.2 to play online\n## Thanks\n- Button icons based on Zacksly's Xbox Series & PS5 Button Icons and Controls (CC BY 3.0, zacksly.itch.io), modified.\n"
+            "notes": "## Added\n- 31 songs from Raging Blast 1, ready to pick on stage select. This update asks for your Raging Blast 1 ISO once, because the songs come from your own copy\n- Button icons now match your controller: Xbox Series icons by default, and DualSense icons as soon as you use a PlayStation controller. They switch live, on every screen - the menus, stage select, the custom name screen, the replay window and the loading mini-game\n- The button prompts during battles use the new icons too\n- The game window is now called Raging Blast Reborn, with a 4-star Dragon Ball icon\n## Changed\n- Every fighter that's only in Raging Blast 2 now has Raging Blast 1's cel shading, so the whole roster matches\n- Nail is a little brighter\n- The VS screen is recoloured to match Reborn's look\n- The loading screen is recoloured to match\n## Fixed\n- Fighters on character select no longer look tired - their eyes now look straight ahead\n- Super Saiyan Future Gohan now has proper cel shading, and Cooler's final form is no longer too bright\n- Watching Plan to Eradicate the Super Saiyans no longer crashes the game - and nine more spots in the movie player that could crash the same way are fixed too\n- The loading mini-game no longer shows PS3 buttons\n- The song you pick on stage select now plays in battle in every mode (one mode used to swap it)\n## Online\n- On character select you now see your opponent's costume as they pick it, not only once they confirm\n- Both players need the latest BETA 0.2 to play online\n## Good to know\n- Installing this update remakes the 3D fighters for character select once (a minute or two)\n## Thanks\n- Button icons based on Zacksly's Xbox Series & PS5 Button Icons and Controls (CC BY 3.0, zacksly.itch.io), modified.\n"
           }
         }
       ],
