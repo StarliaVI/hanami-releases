@@ -1,13 +1,13 @@
 {
-  "version": "4.6.20",
+  "version": "4.6.21",
   "electron": "45.3.2",
-  "date": "2026-11-27T01:19:40.648Z",
-  "notes": "Fixed: during a game install, if Windows asked to allow the build tools (or the Visual Studio Installer opened), the prompt could sit hidden behind Hanami's fullscreen. Hanami now steps out of fullscreen for that step so you can see and allow it.",
+  "date": "2026-11-27T21:54:26.750Z",
+  "notes": "- New home screen: the game you're on sits at the top, with your games in a row under it. Playtime only shows for the game you're on.\n- Friends, Library and Achievements cards (your level, gamerscore and platinums), plus Continue playing with your last three games.\n- Bottom right says you're up to date, or \"Update available!\" when there's a new Hanami: select it to update (F2 still works).\n- Hanami Christmas 🎄: snow, fairy lights, a winter night and a Santa hat, in the menus and the in-game overlay. Turn it off in Settings; it ends by itself after New Year. Neon Coast is over.\n- Fits ultrawide and smaller windows.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "db415b58c08c0f65741d8782dbe4e5111a3287c8de41aeaee95d93c1d916b76e",
-      "size": 1832169
+      "sha256": "67d5d0f3eccca462f94f8d28ee06ca0a86cf19af28ec61407b97accb7d2d61b2",
+      "size": 1868263
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

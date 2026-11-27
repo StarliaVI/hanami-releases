@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.21",
+    "date": "2026-11-27",
+    "notes": "- New home screen: the game you're on sits at the top, with your games in a row under it. Playtime only shows for the game you're on.\n- Friends, Library and Achievements cards (your level, gamerscore and platinums), plus Continue playing with your last three games.\n- Bottom right says you're up to date, or \"Update available!\" when there's a new Hanami: select it to update (F2 still works).\n- Hanami Christmas 🎄: snow, fairy lights, a winter night and a Santa hat, in the menus and the in-game overlay. Turn it off in Settings; it ends by itself after New Year. Neon Coast is over.\n- Fits ultrawide and smaller windows."
+  },
+  {
     "version": "4.6.20",
     "date": "2026-11-27",
     "notes": "Fixed: during a game install, if Windows asked to allow the build tools (or the Visual Studio Installer opened), the prompt could sit hidden behind Hanami's fullscreen. Hanami now steps out of fullscreen for that step so you can see and allow it."
