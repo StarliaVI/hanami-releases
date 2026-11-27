@@ -1,13 +1,13 @@
 {
-  "version": "4.6.19",
+  "version": "4.6.20",
   "electron": "45.3.2",
-  "date": "2026-11-26T09:30:00.035Z",
-  "notes": "Closing Hanami from the taskbar (or Alt+F4) now fully closes it - no more Task Manager",
+  "date": "2026-11-27T01:19:40.648Z",
+  "notes": "Fixed: during a game install, if Windows asked to allow the build tools (or the Visual Studio Installer opened), the prompt could sit hidden behind Hanami's fullscreen. Hanami now steps out of fullscreen for that step so you can see and allow it.",
   "files": [
     {
       "path": "app.asar",
-      "sha256": "7109e18a81619189a81f317fc80c550b8e78533e8fcad4bffb6105461d6f5166",
-      "size": 1831073
+      "sha256": "db415b58c08c0f65741d8782dbe4e5111a3287c8de41aeaee95d93c1d916b76e",
+      "size": 1832169
     },
     {
       "path": "app.asar.unpacked/node_modules/@koromix/koffi-win32-x64/win32_x64/koffi.node",

@@ -1,5 +1,10 @@
 [
   {
+    "version": "4.6.20",
+    "date": "2026-11-27",
+    "notes": "Fixed: during a game install, if Windows asked to allow the build tools (or the Visual Studio Installer opened), the prompt could sit hidden behind Hanami's fullscreen. Hanami now steps out of fullscreen for that step so you can see and allow it."
+  },
+  {
     "version": "4.6.19",
     "date": "2026-11-26",
     "notes": "Closing Hanami from the taskbar (or Alt+F4) now fully closes it - no more Task Manager"
