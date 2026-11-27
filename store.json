@@ -550,18 +550,18 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.38",
+          "version": "0.2.39",
           "label": "BETA 0.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.38-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.39-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.38-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.38-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.38-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.39-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.39-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.39-beta.zip.part2"
           ],
-          "size": 158831384,
+          "size": 158829567,
           "date": "2026-11-27",
           "rebuild": false,
-          "notes": "- Fixed an install that could fail at the final \"building\" step on some PCs (a linker error about __std_min_element), depending on the installed Visual Studio version. It builds everywhere now.\n- Both players need 0.2.38 to play online.\n",
+          "notes": "- Fixed: installing or updating could fail at the final \"building\" step on most PCs (those with Visual Studio 2022). It builds everywhere now.\n- Both players need 0.2.39 to play online.\n",
           "popup": {
             "title": "What's new in BETA 0.1",
             "subtitle": "Everything we fixed and added in this update ✿",
