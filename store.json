@@ -550,18 +550,18 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.35",
+          "version": "0.2.36",
           "label": "BETA 0.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.35-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.35-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.35-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.35-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part2"
           ],
-          "size": 147539982,
-          "date": "2026-11-26",
+          "size": 158346311,
+          "date": "2026-11-27",
           "rebuild": false,
-          "notes": "- 8-fighter battles hold a steady 60 fps, and every mode runs a little faster\n- Tag Team: the camera turns to whoever hits you, ki blasts no longer swing it, CPU ki blasts stay on target, and far-away fighters sound far away\n- Fixed a crash at the end of Tag Team matches\n- Space Planet loads its own map\n- New graphics options: Potato (480p) for weak PCs and laptops, and Ultrawide 3440x1440 for 21:9 monitors\n- Character select, result screen and online fixes\n- Coming from before BETA 0.1, the update compiles the game again - both players need the same version to play online\n",
+          "notes": "- Under-the-hood update: Reborn's code now ships compiled. Updating relinks the game, which only takes a few minutes.\n- Both players need 0.2.36 to play online.\n",
           "popup": {
             "title": "What's new in BETA 0.1",
             "subtitle": "Everything we fixed and added in this update ✿",
