@@ -550,18 +550,18 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.36",
+          "version": "0.2.37",
           "label": "BETA 0.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part0",
+          "file": "builds/rb3/RB3-REBORN-0.2.37-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.36-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.37-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.37-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.37-beta.zip.part2"
           ],
-          "size": 158346311,
+          "size": 158831073,
           "date": "2026-11-27",
           "rebuild": false,
-          "notes": "- Under-the-hood update: Reborn's code now ships compiled. Updating relinks the game, which only takes a few minutes.\n- Both players need 0.2.36 to play online.\n",
+          "notes": "- Fixed: updating could stop with a Clang message on PCs with an older Clang. The installer now swaps it for the right version automatically.\n- Plays online with 0.2.36.\n",
           "popup": {
             "title": "What's new in BETA 0.1",
             "subtitle": "Everything we fixed and added in this update ✿",
