@@ -550,22 +550,22 @@
       "credits": "Dragon Ball: Raging Blast Reborn by Myowcha. Tag Team + rollback online by a friend of the project. Built with ReXGlue (BSD).",
       "builds": [
         {
-          "version": "0.2.44",
-          "label": "BETA 0.2.1",
-          "file": "builds/rb3/RB3-REBORN-0.2.44-beta.zip.part0",
+          "version": "0.2.45",
+          "label": "BETA 0.2.2",
+          "file": "builds/rb3/RB3-REBORN-0.2.45-beta.zip.part0",
           "parts": [
-            "builds/rb3/RB3-REBORN-0.2.44-beta.zip.part0",
-            "builds/rb3/RB3-REBORN-0.2.44-beta.zip.part1",
-            "builds/rb3/RB3-REBORN-0.2.44-beta.zip.part2"
+            "builds/rb3/RB3-REBORN-0.2.45-beta.zip.part0",
+            "builds/rb3/RB3-REBORN-0.2.45-beta.zip.part1",
+            "builds/rb3/RB3-REBORN-0.2.45-beta.zip.part2"
           ],
-          "size": 149901687,
-          "date": "2026-11-27",
+          "size": 149921473,
+          "date": "2026-11-28",
           "rebuild": false,
-          "notes": "- Button prompts during battles now show PlayStation icons when you use a DualSense.\n- Fighters on character select keep their own sideways glare instead of staring straight ahead.\n- Both players need BETA 0.2.1 to play online.\n",
+          "notes": "- The freeze glitch is gone: fighters can no longer be left frozen in place while you dash in for free hits.\n- Rushing after a ki blast from across the map no longer teleports you onto your opponent.\n- Trunks' Another End can no longer be looped into an infinite.\n- Gogeta's smash attacks and signature can now be vanished.\n- Perfect Cell's rush ki blast no longer resets the combo, and his smash high follow-up now works as player 1 / host.\n- Team Battle's team strip no longer covers the character grid.\n- Glacier's reflections are gone, and the battle HUD has a new \"Nebula glass\" look.\n- Tag Team update BUILD437 by Treantz.\n- Both players need BETA 0.2.2 to play online.\n",
           "popup": {
-            "title": "What's new in BETA 0.2.1",
-            "subtitle": "Two quick fixes ✿",
-            "notes": "## Fixed\n- Button prompts during battles (like Recovery!) now show PlayStation icons when you use a DualSense - they switch a few seconds into the fight\n- Fighters on character select no longer stare straight ahead looking startled: they keep their own glare, and only eyes the eyelids hid get moved into view\n## Online\n- Both players need BETA 0.2.1 to play online\n## Missed BETA 0.2?\n- It brought 31 Raging Blast 1 songs, button icons that match your controller, Raging Blast 1's cel shading for every Raging Blast 2-only fighter, your opponent's costume shown live on online character select, recoloured VS and loading screens, and a fix for the Plan to Eradicate the Super Saiyans movie crash. It asks for your Raging Blast 1 ISO once\n## Thanks\n- Button icons based on Zacksly's Xbox Series & PS5 Button Icons and Controls (CC BY 3.0, zacksly.itch.io), modified.\n"
+            "title": "What's new in BETA 0.2.2",
+            "subtitle": "Old Raging Blast 2 glitches, fixed ✿",
+            "notes": "## Fixed\n- The freeze glitch is gone: fighters can no longer be left frozen in place while the other player dashes in for free hits (smash attacks included)\n- The ki blast teleport is gone: rushing after a ki blast from across the map no longer teleports you onto your opponent\n- Trunks' Another End still works, but can no longer be looped into an infinite\n- Gogeta's smash attacks and signature can now be vanished, like the rest of the cast\n- Perfect Cell's rush ki blast no longer resets the combo counter\n- Perfect Cell's smash high follow-up now works as player 1 / host, not just player 2\n- Team Battle: the team strip on character select no longer covers the character grid\n## Looks\n- Glacier no longer has reflections\n- New \"Nebula glass\" battle HUD: cyan health, violet ki, silver frame\n## Tag Team\n- Tag Team update BUILD437 by Treantz\n## Online\n- Both players need BETA 0.2.2 to play online\n"
           }
         }
       ],
